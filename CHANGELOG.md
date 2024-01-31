@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/umutto/umutto.github.io/compare/v0.1.1...v0.1.2) (2024-01-31)
+
+
+### Bug Fixes
+
+* localStorage state on mount ([e9217aa](https://github.com/umutto/umutto.github.io/commit/e9217aac2393c5d6c217943132774899f9d10d11))
+* public folder location ([cdd2a0c](https://github.com/umutto/umutto.github.io/commit/cdd2a0cbb22f566244d10f6aaa997d5f2cffb532))
+
 ### 0.1.1 (2024-01-31)
 
 ### Features

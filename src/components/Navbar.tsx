@@ -1,32 +1,19 @@
-import { ThemeSwitch } from "@/components";
+import { Icon, ThemeSwitch } from "@/components";
 
 type NavbarProps = { routes: { name: string; href: string }[] };
 
 export default function Navbar({ routes }: NavbarProps) {
   return (
-    <div className="sticky top-0 z-50 flex justify-center py-4">
-      <div className="navbar max-w-xs rounded-full bg-base-100/90 py-0 shadow-2xl outline outline-base-content/5 backdrop-blur md:max-w-4xl">
+    <div className="sticky top-0 z-50 flex justify-center pb-4 md:py-4">
+      <div className="navbar w-full md:rounded-full bg-base-100/90 py-0 shadow-2xl outline backdrop-blur md:max-w-xl lg:max-w-4xl">
         <div className="navbar-start">
           <div className="dropdown">
             <div
               tabIndex={0}
               role="button"
-              className="btn btn-circle btn-ghost lg:hidden "
+              className="btn btn-circle btn-ghost md:hidden "
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h8m-8 6h16"
-                />
-              </svg>
+              <Icon name="Menu" className="h-5 w-5" />
             </div>
             <ul className="menu dropdown-content menu-md z-[1] mt-3 w-52 gap-2 rounded-box bg-base-100 p-2 shadow">
               {routes.map((item, index) => (
@@ -42,7 +29,7 @@ export default function Navbar({ routes }: NavbarProps) {
             umu.to
           </a>
         </div>
-        <div className="navbar-center ml-10 hidden lg:flex">
+        <div className="navbar-center ml-10 hidden md:flex">
           {routes.map((item, index) => (
             <nav key={index} className="menu menu-horizontal px-1">
               <a

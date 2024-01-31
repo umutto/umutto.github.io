@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "umutto.github.io",
   "version": "0.1.1",
   "description": "Personal portfolio page for a software dev",
   "author": {
@@ -8,7 +8,7 @@
     "url": "https://umu.to/"
   },
   "license": "MIT",
-  "repository": "https://github.com/umutto/portfolio",
+  "repository": "https://github.com/umutto/umutto.github.io",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

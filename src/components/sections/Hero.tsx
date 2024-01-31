@@ -1,6 +1,5 @@
 import Image from "next/image";
 
-import HeroImage from "@/public/images/hero.webp";
 import { Icon } from "@/components";
 
 export default function Hero() {
@@ -8,7 +7,7 @@ export default function Hero() {
     <section className="hero py-10 flex justify-center overflow-hidden">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <Image
-          src={HeroImage}
+          src="/portfolio/public/images/hero.webp"
           alt="Umut Karakulak"
           width={420}
           height={420}

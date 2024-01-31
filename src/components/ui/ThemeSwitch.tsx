@@ -5,7 +5,11 @@ import { useEffect, useState } from "react";
 import { Icon } from "@/components";
 
 export default function ThemeSwitch() {
-  const [theme, setTheme] = useState(localStorage.getItem("theme") ?? themes.light);
+  const [theme, setTheme] = useState(themes.light);
+
+  useEffect(() => {
+    setTheme(localStorage.getItem("theme") ?? themes.light);
+  }, []);
 
   useEffect(() => {
     localStorage.setItem("theme", theme);

@@ -1,0 +1,58 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "description": "Personal portfolio page for a software dev",
+  "author": {
+    "name": "Umut Karakulak",
+    "email": "hi@umu.to",
+    "url": "https://umu.to/"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/umutto/portfolio",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "version": "standard-version"
+  },
+  "dependencies": {
+    "@mdx-js/loader": "^3.0.0",
+    "@mdx-js/react": "^3.0.0",
+    "@next/mdx": "^14.1.0",
+    "@types/mdx": "^2.0.11",
+    "framer-motion": "^11.0.3",
+    "lucide-react": "^0.320.0",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^11.1.0",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^9.2.6",
+    "@semantic-release/npm": "^11.0.2",
+    "@semantic-release/release-notes-generator": "^12.1.0",
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@typescript-eslint/eslint-plugin": "^6.20.0",
+    "@typescript-eslint/parser": "^6.20.0",
+    "autoprefixer": "^10.0.1",
+    "daisyui": "^4.6.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-tailwindcss": "^3.14.1",
+    "gzip-size": "^7.0.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}

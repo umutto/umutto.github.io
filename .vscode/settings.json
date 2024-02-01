@@ -12,12 +12,14 @@
     "classname",
     "cssnano",
     "daisyui",
+    "dunksoft",
     "gtag",
     "lucide",
     "nextjs",
     "robotstxt",
     "umutto",
     "unoptimized",
+    "wearee",
     "webp"
   ],
   "cSpell.ignorePaths": [

@@ -1,5 +1,6 @@
 import { icons } from "lucide-react";
 import { memo } from "react";
+import { twMerge } from "tailwind-merge";
 
 export type IconName = keyof typeof icons;
 
@@ -22,7 +23,7 @@ const Icon = memo(({ name, className, strokeWidth }: IconProps) => {
 
   return (
     <IconComponent
-      className={className || "h-4 w-4 mx-1"}
+      className={twMerge("size-4 mx-1", className)}
       strokeWidth={strokeWidth || 2.5}
     />
   );

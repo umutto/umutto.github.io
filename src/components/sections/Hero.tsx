@@ -4,7 +4,7 @@ import { Icon } from "@/components";
 
 export default function Hero() {
   return (
-    <section className="hero py-10 flex justify-center overflow-hidden">
+    <section className="hero py-10 flex justify-center overflow-hidden border-b">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <Image
           src="/images/umut.webp"

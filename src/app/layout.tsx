@@ -104,7 +104,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-gradient-to-tl from-primary/15 min-h-screen">
+      <body className="bg-gradient-to-tl from-primary/25 min-h-screen">
         {children}
         <script
           type="application/ld+json"

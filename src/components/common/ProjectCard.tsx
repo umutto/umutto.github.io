@@ -81,7 +81,7 @@ export default function ProjectCard({
                 href={link.url}
                 rel="noreferrer"
                 target="_blank"
-                className="btn-secondary badge"
+                className="btn-accent badge"
                 title={link.title}
               >
                 {link.icon ? <Icon name={link.icon} /> : link.title}

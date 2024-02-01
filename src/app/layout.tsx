@@ -5,6 +5,7 @@ import { Person, WithContext } from "schema-dts";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://umu.to"),
   title: "Umut Karakulak's Portfolio: Web Development & Machine Learning",
   description:
     "Someone who is passionate about experimenting with innovative, state of the art technologies. Currently working as a full-stack developer with a touch of machine learning for good measure. Explore my portfolio and feel free to say hi!",

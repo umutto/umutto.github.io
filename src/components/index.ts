@@ -5,6 +5,7 @@ import Icon from "./Icon";
 import Hero from "./sections/Hero";
 import Carousel from "./ui/Carousel";
 import CodeMockup from "./ui/CodeMockup";
+import SectionHeader from "./ui/SectionHeader";
 import ThemeSwitch from "./ui/ThemeSwitch";
 
 export {
@@ -15,5 +16,6 @@ export {
   Icon,
   Carousel,
   CodeMockup,
+  SectionHeader,
   ThemeSwitch,
 };

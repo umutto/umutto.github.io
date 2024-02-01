@@ -1,0 +1,13 @@
+{
+  "name": "Umut Karakulak",
+  "description": "Personal portfolio page for a software dev",
+  "short_name": "umu.to",
+  "start_url": "/",
+  "icons": [
+    { "src": "/icon.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon2.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "theme_color": "#fe8560",
+  "background_color": "#232327",
+  "display": "standalone"
+}

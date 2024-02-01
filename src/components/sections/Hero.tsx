@@ -7,7 +7,7 @@ export default function Hero() {
     <section className="hero py-10 flex justify-center overflow-hidden">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <Image
-          src="/images/hero.webp"
+          src="/images/umut.webp"
           alt="Umut Karakulak"
           width={420}
           height={420}

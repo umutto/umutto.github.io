@@ -3,9 +3,9 @@ import Hero from "@/components/sections/Hero";
 import Image from "next/image";
 
 const navigationRoutes = [
-  { name: "About", href: "#about" },
-  { name: "Projects", href: "#projects" },
-  { name: "Contact", href: "#contact" },
+  { name: "About", href: "#about" }, // Work, education, skills, languages
+  { name: "Projects", href: "#projects" }, // Achievements, Projects
+  { name: "Contact", href: "#contact" }, // Contact, socials
 ];
 
 export default function Home() {

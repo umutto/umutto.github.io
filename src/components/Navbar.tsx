@@ -11,7 +11,8 @@ export default function Navbar({ routes }: NavbarProps) {
             <div
               tabIndex={0}
               role="button"
-              className="btn btn-circle btn-ghost md:hidden "
+              className="btn btn-circle btn-ghost md:hidden"
+              aria-label="Menu"
             >
               <Icon name="Menu" className="size-5" />
             </div>

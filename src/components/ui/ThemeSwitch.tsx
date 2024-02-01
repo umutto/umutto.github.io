@@ -25,7 +25,7 @@ export default function ThemeSwitch() {
   };
 
   return (
-    <label className="swap swap-rotate">
+    <label className="swap swap-rotate" aria-label="Theme">
       <input
         type="checkbox"
         className="theme-controller"

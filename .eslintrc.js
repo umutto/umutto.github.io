@@ -1,20 +1,7 @@
-// eslint-disable-next-line @typescript-eslint/no-var-requires
 const fs = require("fs");
 
 module.exports = {
-  extends: [
-    "next",
-    "prettier",
-    "react-app",
-    "react-app/jest",
-    "plugin:storybook/recommended",
-    "plugin:tailwindcss/recommended",
-  ],
-  parserOptions: {
-    babelOptions: {
-      presets: [require.resolve("next/babel")],
-    },
-  },
+  extends: ["next", "prettier", "react-app", "plugin:tailwindcss/recommended"],
   rules: {
     "tailwindcss/no-custom-classname": "off",
     "testing-library/prefer-screen-queries": "off",
@@ -26,14 +13,6 @@ module.exports = {
         varsIgnorePattern: "^_",
       },
     ],
-    "sort-imports": [
-      "error",
-      {
-        ignoreCase: true,
-        ignoreDeclarationSort: true,
-      },
-    ],
-    "tailwindcss/classnames-order": "off",
     "import/order": [
       1,
       {
@@ -64,6 +43,17 @@ module.exports = {
         },
       },
     ],
+    "sort-imports": [
+      "error",
+      {
+        ignoreCase: true,
+        ignoreDeclarationSort: true,
+        ignoreMemberSort: false,
+        memberSyntaxSortOrder: ["none", "all", "multiple", "single"],
+        allowSeparatedGroups: false,
+      },
+    ],
+    "tailwindcss/classnames-order": "off",
   },
 };
 

@@ -1,0 +1,29 @@
+{
+  "tailwindCSS.experimental.classRegex": [
+    [
+      "cva(?:<[^>]*>)?(([^)]*))",
+      "[\"'`]([^\"'`]*).*?[\"'`]",
+      "(?:twMerge|twJoin)\\(([^\\);]*)[\\);]"
+    ]
+  ],
+  "cSpell.enabled": true,
+  "cSpell.words": [
+    "classname",
+    "cssnano",
+    "daisyui",
+    "gtag",
+    "lucide",
+    "nextjs",
+    "robotstxt",
+    "umutto",
+    "unoptimized"
+  ],
+  "cSpell.ignorePaths": [
+    "package-lock.json",
+    "node_modules",
+    "vscode-extension",
+    ".git/objects",
+    ".vscode",
+    ".vscode-insiders"
+  ]
+}

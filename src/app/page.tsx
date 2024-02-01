@@ -1,6 +1,5 @@
 import NavBar from "@/components/Navbar";
 import Hero from "@/components/sections/Hero";
-import Image from "next/image";
 
 const navigationRoutes = [
   { name: "About", href: "#about" }, // Work, education, skills, languages

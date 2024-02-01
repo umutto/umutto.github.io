@@ -13,7 +13,7 @@ export default function Navbar({ routes }: NavbarProps) {
               role="button"
               className="btn btn-circle btn-ghost md:hidden "
             >
-              <Icon name="Menu" className="h-5 w-5" />
+              <Icon name="Menu" className="size-5" />
             </div>
             <ul className="menu dropdown-content menu-md z-[1] mt-3 w-52 gap-2 rounded-box bg-base-100 p-2 shadow">
               {routes.map((item, index) => (
@@ -25,7 +25,7 @@ export default function Navbar({ routes }: NavbarProps) {
               ))}
             </ul>
           </div>
-          <a href="#" className="btn btn-ghost rounded-full text-lg font-semibold">
+          <a href="#top" className="btn btn-ghost rounded-full text-lg font-semibold">
             umu.to
           </a>
         </div>

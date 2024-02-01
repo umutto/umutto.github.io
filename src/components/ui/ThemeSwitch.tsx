@@ -1,8 +1,8 @@
 "use client";
 
-import { themes } from "@/config";
 import { useEffect, useState } from "react";
 import { Icon } from "@/components";
+import { themes } from "@/config";
 
 export default function ThemeSwitch() {
   const [theme, setTheme] = useState(themes.light);
@@ -32,8 +32,8 @@ export default function ThemeSwitch() {
         onChange={handleToggle}
         checked={theme === themes.light}
       />
-      <Icon name="SunMedium" className="swap-on fill-current w-10 h-10" />
-      <Icon name="Moon" className="swap-off fill-current w-10 h-10" />
+      <Icon name="SunMedium" className="swap-on fill-current size-10" />
+      <Icon name="Moon" className="swap-off fill-current size-10" />
     </label>
   );
 }

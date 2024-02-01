@@ -8,6 +8,7 @@
   ],
   "cSpell.enabled": true,
   "cSpell.words": [
+    "artboard",
     "classname",
     "cssnano",
     "daisyui",
@@ -16,7 +17,8 @@
     "nextjs",
     "robotstxt",
     "umutto",
-    "unoptimized"
+    "unoptimized",
+    "webp"
   ],
   "cSpell.ignorePaths": [
     "package-lock.json",

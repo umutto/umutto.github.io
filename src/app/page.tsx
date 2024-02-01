@@ -1,6 +1,5 @@
 import NavBar from "@/components/Navbar";
-import Hero from "@/components/sections/Hero";
-import WorkHistory from "@/components/sections/WorkHistory";
+import { EducationHistory, Hero, WorkHistory } from "@/components/sections";
 
 const navigationRoutes = [
   { name: "About", href: "#about" }, // Work, education, skills, languages
@@ -13,9 +12,11 @@ export default function Home() {
     <>
       <NavBar routes={navigationRoutes} />
       <Hero />
-      <main className="container mx-auto py-8">
-        <section id="#about" className="pb-10 md:px-4 lg:px-8 xl:px-16">
+      <main className="container mx-auto py-8 gap-6">
+        <section id="about" className="pb-10 md:px-4 lg:px-8 xl:px-16">
           <WorkHistory />
+          <div className="divider" />
+          <EducationHistory />
         </section>
       </main>
     </>

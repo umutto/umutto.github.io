@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/umutto/umutto.github.io/compare/v0.1.2...v0.1.3) (2024-02-01)
+
+
+### Features
+
+* initial logo, metadata files, seo ([87d1793](https://github.com/umutto/umutto.github.io/commit/87d1793be6b4a8d4aa757f3480f2c1cf54561559))
+
 ### [0.1.2](https://github.com/umutto/umutto.github.io/compare/v0.1.1...v0.1.2) (2024-01-31)
 
 

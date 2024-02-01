@@ -69,7 +69,9 @@ export default function WorkHistory() {
   return (
     <>
       <SectionHeader>Work History</SectionHeader>
-      <Timeline timeline={timelineEvents} />
+      <div className="mx-1">
+        <Timeline timeline={timelineEvents} />
+      </div>
     </>
   );
 }

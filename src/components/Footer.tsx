@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="footer footer-center p-6 bg-base-100/90 border-t border-base-300 text-base-content">
       <aside>
-        <p className="text-mono font-semibold text flex items-center flex-wrap justify-center">
+        <p className="text-mono font-semibold text flex items-center flex-wrap justify-center gap-1">
           <span>This website is open-source!</span>
           <span>
             Check out the code on

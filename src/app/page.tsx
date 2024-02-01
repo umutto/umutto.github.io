@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import NavBar from "@/components/Navbar";
 import { EducationHistory, Hero, WorkHistory } from "@/components/sections";
 
@@ -19,6 +20,7 @@ export default function Home() {
           <EducationHistory />
         </section>
       </main>
+      <Footer />
     </>
   );
 }

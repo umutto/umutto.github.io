@@ -19,10 +19,16 @@ export default function EducationCard({
     month: "short",
   });
   return (
-    <div className="card card-side bg-base-100 shadow-xl mx-auto md:max-w-xl lg:max-w-2xl xl:max-w-4xl">
+    <div className="card md:card-side bg-base-100 shadow-xl mx-auto md:max-w-xl lg:max-w-2xl xl:max-w-4xl">
       {image && (
-        <figure className="ml-4 md:ml-8">
-          <Image src={image} alt={name} height={60} width={120} />
+        <figure className="bg-white">
+          <Image
+            className="my-4 mx-2 md:ml-6"
+            src={image}
+            alt={name}
+            height={60}
+            width={200}
+          />
         </figure>
       )}
       <div className="card-body">

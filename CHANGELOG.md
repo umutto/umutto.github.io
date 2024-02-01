@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.4](https://github.com/umutto/umutto.github.io/compare/v0.1.3...v0.1.4) (2024-02-01)
+
+
+### Features
+
+* add carousel component ([a2389f2](https://github.com/umutto/umutto.github.io/commit/a2389f2907188455e8b0a802986efc09595f4676))
+* add code mockup component ([fe08adb](https://github.com/umutto/umutto.github.io/commit/fe08adb2a799f38c49143fdb881d2a52bff86e66))
+* add section header component ([bd4a675](https://github.com/umutto/umutto.github.io/commit/bd4a675beffaebe0d03c40a57cf4b3cbf27d6298))
+* add skill badge component ([31e291e](https://github.com/umutto/umutto.github.io/commit/31e291ec13e5b7da4cc99feb47d2f0ce57c829c9))
+* add timeline component ([9b7d61c](https://github.com/umutto/umutto.github.io/commit/9b7d61cb5269947cb51be5a6b7a1ba2f85c500c2))
+* init work history section design and content ([6586fbe](https://github.com/umutto/umutto.github.io/commit/6586fbe122ba3a9262c8fd39ee51d9699642b4b2))
+* initial design for project cards ([3c560b3](https://github.com/umutto/umutto.github.io/commit/3c560b35d16c6ae58cc8a28fe34dfc9190c6caff))
+
+
+### Bug Fixes
+
+* add metadata base attr ([d773d9e](https://github.com/umutto/umutto.github.io/commit/d773d9e22128579106cd7d3c0666ef306f2e3a80))
+
 ### [0.1.3](https://github.com/umutto/umutto.github.io/compare/v0.1.2...v0.1.3) (2024-02-01)
 
 

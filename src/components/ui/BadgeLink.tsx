@@ -1,10 +1,9 @@
-import Link from "next/link";
 import { Icon } from "@/components";
 import { BadgeLinkProps } from "@/types/props";
 
 export default function BadgeLink({ url, icon, title, isFileDownload }: BadgeLinkProps) {
   return (
-    <Link
+    <a
       href={url}
       rel="noreferrer"
       target="_blank"
@@ -13,6 +12,6 @@ export default function BadgeLink({ url, icon, title, isFileDownload }: BadgeLin
       download={isFileDownload}
     >
       {icon && <Icon name={icon} />} {title}
-    </Link>
+    </a>
   );
 }

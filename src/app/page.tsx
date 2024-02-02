@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
 import NavBar from "@/components/Navbar";
 import {
+  Awards,
   EducationHistory,
   Hero,
   Projects,
@@ -31,6 +32,7 @@ export default function Home() {
         <section id="projects" className="pb-10 md:px-4 lg:px-8 xl:px-16">
           <Projects />
           <div className="divider h-px overflow-hidden" />
+          <Awards />
         </section>
         {/* <section id="contact" className="pb-10 md:px-4 lg:px-8 xl:px-16">
           <Socials />

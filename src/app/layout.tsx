@@ -4,6 +4,8 @@ import { Person, WithContext } from "schema-dts";
 
 import "./globals.css";
 
+import AnimatedBackground from "@/components/AnimatedBackground";
+
 export const metadata: Metadata = {
   metadataBase: new URL("https://umu.to"),
   title: "Umut Karakulak's Portfolio: Web Development & Machine Learning",
@@ -110,6 +112,7 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdPerson) }}
         />
+        <AnimatedBackground />
       </body>
     </html>
   );

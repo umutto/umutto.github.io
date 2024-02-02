@@ -1,6 +1,6 @@
 import { IconName } from "@/components/Icon";
 
-export type CardLink = {
+export type BadgeLinkProps = {
   url: string;
   icon: IconName;
   title?: string;

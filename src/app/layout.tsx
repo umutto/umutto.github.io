@@ -1,3 +1,4 @@
+import { GoogleAnalytics } from "@next/third-parties/google";
 import type { Metadata } from "next";
 
 import { Person, WithContext } from "schema-dts";
@@ -5,7 +6,6 @@ import { Person, WithContext } from "schema-dts";
 import "./globals.css";
 
 import AnimatedBackground from "@/components/AnimatedBackground";
-import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://umu.to"),

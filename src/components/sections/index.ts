@@ -3,6 +3,7 @@ import EducationHistory from "./EducationHistory";
 import Hero from "./Hero";
 import Projects from "./Projects";
 import SkillBadges from "./SkillBadges";
+import Socials from "./Socials";
 import SpokenLanguages from "./SpokenLanguages";
 import WorkHistory from "./WorkHistory";
 
@@ -12,6 +13,7 @@ export {
   Hero,
   Projects,
   SkillBadges,
+  Socials,
   SpokenLanguages,
   WorkHistory,
 };

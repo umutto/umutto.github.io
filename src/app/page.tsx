@@ -6,6 +6,7 @@ import {
   Hero,
   Projects,
   SkillBadges,
+  Socials,
   SpokenLanguages,
   WorkHistory,
 } from "@/components/sections";
@@ -36,10 +37,11 @@ export default function Home() {
           <Projects />
           <div className="divider h-px overflow-hidden" />
           <Awards />
+          <div className="divider h-px overflow-hidden" />
         </section>
-        {/* <section id="contact" className="pb-10 md:px-4 lg:px-8 xl:px-16">
+        <section id="contact" className="py-16 md:px-4 lg:px-8 xl:px-16">
           <Socials />
-        </section> */}
+        </section>
       </main>
       <Footer />
     </>

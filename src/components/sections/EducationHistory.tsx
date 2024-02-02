@@ -1,4 +1,4 @@
-import { EducationCard, SectionHeader } from "@/components";
+import { EducationCard } from "@/components";
 
 const educationInstitutions = [
   {
@@ -11,13 +11,10 @@ const educationInstitutions = [
 
 export default function EducationHistory() {
   return (
-    <>
-      <SectionHeader>Education</SectionHeader>
-      <div className="py-2 mx-2">
-        {educationInstitutions.map((institution) => (
-          <EducationCard key={institution.name} {...institution} />
-        ))}
-      </div>
-    </>
+    <div className="pb-2 mx-2">
+      {educationInstitutions.map((institution) => (
+        <EducationCard key={institution.name} {...institution} />
+      ))}
+    </div>
   );
 }

@@ -1,4 +1,4 @@
-import { SectionHeader, ShowcaseCard } from "@/components";
+import { ShowcaseCard } from "@/components";
 
 const awards = [
   {
@@ -55,13 +55,10 @@ const awards = [
 
 export default function Awards() {
   return (
-    <>
-      <SectionHeader>Awards</SectionHeader>
-      <div className="py-2 mx-2 grid gap-4">
-        {awards.map((award, idx) => (
-          <ShowcaseCard orientation="horizontal" key={idx} {...award} />
-        ))}
-      </div>
-    </>
+    <div className="pb-2 mx-2 grid gap-4">
+      {awards.map((award, idx) => (
+        <ShowcaseCard orientation="horizontal" key={idx} {...award} />
+      ))}
+    </div>
   );
 }

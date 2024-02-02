@@ -1,4 +1,4 @@
-import { SectionHeader, Timeline } from "@/components";
+import { Timeline } from "@/components";
 
 const timelineEvents = [
   {
@@ -67,11 +67,8 @@ const timelineEvents = [
 
 export default function WorkHistory() {
   return (
-    <>
-      <SectionHeader>Work History</SectionHeader>
-      <div className="mx-1">
-        <Timeline timeline={timelineEvents} />
-      </div>
-    </>
+    <div className="mx-1">
+      <Timeline timeline={timelineEvents} />
+    </div>
   );
 }

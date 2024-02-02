@@ -1,4 +1,4 @@
-import { SectionHeader, SkillBadge } from "@/components";
+import { SkillBadge } from "@/components";
 
 const skills = [
   {
@@ -101,13 +101,10 @@ const skills = [
 
 export default function SkillBadges() {
   return (
-    <>
-      <SectionHeader>Skills</SectionHeader>
-      <div className="flex justify-center gap-1 flex-wrap py-2">
-        {skills.map((skill, idx) => (
-          <SkillBadge key={idx} {...skill} />
-        ))}
-      </div>
-    </>
+    <div className="flex justify-center gap-1 flex-wrap py-2">
+      {skills.map((skill, idx) => (
+        <SkillBadge key={idx} {...skill} />
+      ))}
+    </div>
   );
 }

@@ -1,4 +1,4 @@
-import { SectionHeader, ShowcaseCard } from "@/components";
+import { ShowcaseCard } from "@/components";
 
 const projects = [
   {
@@ -82,13 +82,10 @@ const projects = [
 
 export default function Projects() {
   return (
-    <>
-      <SectionHeader>Projects</SectionHeader>
-      <div className="py-2 mx-2 grid sm:grid-cols-2 xl:grid-cols-3 gap-6 sm:gap-4 xl:gap-6">
-        {projects.map((project, idx) => (
-          <ShowcaseCard key={idx} orientation="vertical" {...project} />
-        ))}
-      </div>
-    </>
+    <div className="py-2 mx-2 grid sm:grid-cols-2 xl:grid-cols-3 gap-6 sm:gap-4 xl:gap-6">
+      {projects.map((project, idx) => (
+        <ShowcaseCard key={idx} orientation="vertical" {...project} />
+      ))}
+    </div>
   );
 }

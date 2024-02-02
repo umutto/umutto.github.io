@@ -1,11 +1,6 @@
-import { ContactBadge, SectionHeader } from "@/components";
+import { ContactBadge } from "@/components";
 
 const links = [
-  {
-    title: "Email",
-    icon: "MailOpen" as const,
-    url: "mailto:hi@umu.to",
-  },
   {
     title: "GitHub",
     icon: "Github" as const,
@@ -21,17 +16,19 @@ const links = [
     icon: "Linkedin" as const,
     url: "https://www.linkedin.com/in/umutto/",
   },
+  {
+    title: "Email",
+    icon: "MailOpen" as const,
+    url: "mailto:hi@umu.to",
+  },
 ];
 
 export default function Socials() {
   return (
-    <>
-      <SectionHeader>Contact</SectionHeader>
-      <div className="flex justify-center gap-3 flex-wrap py-2">
-        {links.map((link, idx) => (
-          <ContactBadge key={idx} {...link} />
-        ))}
-      </div>
-    </>
+    <div className="flex justify-center gap-4 flex-wrap py-2">
+      {links.map((link, idx) => (
+        <ContactBadge key={idx} {...link} />
+      ))}
+    </div>
   );
 }

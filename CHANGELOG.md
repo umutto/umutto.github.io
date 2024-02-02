@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.6](https://github.com/umutto/umutto.github.io/compare/v0.1.5...v0.1.6) (2024-02-02)
+
+
+### Features
+
+* add lighthouse score to readme ([dc5e1bf](https://github.com/umutto/umutto.github.io/commit/dc5e1bfba1f06a5a4a2d32f1cc1196fba85444ce))
+
 ### [0.1.5](https://github.com/umutto/umutto.github.io/compare/v0.1.4...v0.1.5) (2024-02-02)
 
 

@@ -19,6 +19,7 @@ export default function LanguageDial({ value, text, className }: LanguageDialPro
         className="radial-progress drop-shadow"
         style={{ "--value": value, "--thickness": "0.125rem" } as CSSPropertiesWithVars}
         role="progressbar"
+        aria-label={text}
       >
         {`${value}%`}
       </div>

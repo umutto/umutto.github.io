@@ -1,8 +1,7 @@
 import Image from "next/image";
-import Link from "next/link";
 import { twMerge } from "tailwind-merge";
-import { Icon } from "@/components";
-import { CardLink } from "@/types/props";
+import { BadgeLink } from "@/components";
+import { BadgeLinkProps } from "@/types/props";
 
 type SquareCardProps = {
   title: string;
@@ -10,7 +9,7 @@ type SquareCardProps = {
   description: string;
   className?: string;
   image?: string;
-  links?: CardLink[];
+  links?: BadgeLinkProps[];
 };
 
 export default function SquareCard({
@@ -35,19 +34,9 @@ export default function SquareCard({
         </div>
         <p className="text-sm lg:text-base">{description}</p>
         {links && (
-          <div className="card-actions justify-end mt-2">
-            {links?.map((link) => (
-              <Link
-                key={link.url}
-                href={link.url}
-                rel="noreferrer"
-                target="_blank"
-                className="btn-secondary btn btn-sm"
-                title={link.title}
-                download={link.isFileDownload}
-              >
-                {link.icon && <Icon name={link.icon} />} {link.title}
-              </Link>
+          <div className="card-actions justify-center sm:justify-end mt-2">
+            {links?.map((link, idx) => (
+              <BadgeLink key={idx} {...link} />
             ))}
           </div>
         )}

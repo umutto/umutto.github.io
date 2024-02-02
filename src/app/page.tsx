@@ -6,6 +6,7 @@ import {
   Hero,
   Projects,
   SkillBadges,
+  SpokenLanguages,
   WorkHistory,
 } from "@/components/sections";
 
@@ -23,6 +24,8 @@ export default function Home() {
       <main className="container mx-auto py-8 gap-6">
         <section id="about" className="pb-10 md:px-4 lg:px-8 xl:px-16">
           <SkillBadges />
+          <div className="divider h-px overflow-hidden" />
+          <SpokenLanguages />
           <div className="divider h-px overflow-hidden" />
           <WorkHistory />
           <div className="divider h-px overflow-hidden" />

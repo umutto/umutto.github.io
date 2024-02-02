@@ -22,7 +22,7 @@ export default function Home() {
       <NavBar routes={navigationRoutes} />
       <Hero />
       <main className="container mx-auto py-8 gap-6">
-        <section id="about" className="pb-10 md:px-4 lg:px-8 xl:px-16">
+        <section id="about" className="md:px-4 lg:px-8 xl:px-16">
           <SkillBadges />
           <div className="divider h-px overflow-hidden" />
           <SpokenLanguages />
@@ -32,7 +32,7 @@ export default function Home() {
           <EducationHistory />
           <div className="divider h-px overflow-hidden" />
         </section>
-        <section id="projects" className="pb-10 md:px-4 lg:px-8 xl:px-16">
+        <section id="projects" className="md:px-4 lg:px-8 xl:px-16">
           <Projects />
           <div className="divider h-px overflow-hidden" />
           <Awards />

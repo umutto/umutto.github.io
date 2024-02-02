@@ -12,7 +12,7 @@ export default function SectionHeader({ id, className, children }: SectionHeader
     <h2
       id={id}
       className={twMerge(
-        "text-4xl md:text-5xl text-center drop-shadow mb-8 font-semibold",
+        "text-3xl md:text-4xl text-center drop-shadow mb-8 font-semibold",
         className
       )}
     >

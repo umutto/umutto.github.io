@@ -37,7 +37,6 @@ export default function ShowcaseCard({
             alt={title}
             width={orientation === "horizontal" ? 320 : 460}
             height={170}
-            objectFit="contain"
             className="rounded"
           />
         </figure>

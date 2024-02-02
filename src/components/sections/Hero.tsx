@@ -34,7 +34,7 @@ export default function Hero() {
               👋 Say hello!
             </a>
             <a
-              href="/"
+              href="#"
               className="btn btn-outline md:btn-lg rounded-full font-light btn-wide"
             >
               <Icon name="Download" /> Download CV

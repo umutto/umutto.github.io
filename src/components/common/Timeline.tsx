@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Icon } from "@/components";
+import { formatLocaleDate } from "@/utils/formatters";
 
 type TimelineEvent = {
   title: string;
@@ -22,17 +23,9 @@ export default function Timeline({ timeline }: TimelineProps) {
     <ul className="timeline max-md:timeline-compact timeline-vertical">
       {timeline.map((company, idx) => {
         const events = company.events.map((event, idy) => {
-          const dateFromFormatted = event.dateFrom.toLocaleDateString("en-GB", {
-            year: "numeric",
-            month: "short",
-          });
+          const dateFromFormatted = formatLocaleDate(event.dateFrom);
           const dateToFormatted =
-            event.dateTo === "present"
-              ? event.dateTo
-              : event.dateTo.toLocaleDateString("en-GB", {
-                  year: "numeric",
-                  month: "short",
-                });
+            event.dateTo === "present" ? event.dateTo : formatLocaleDate(event.dateTo);
 
           return (
             <div key={idy} className="mb-4">

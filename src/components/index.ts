@@ -1,6 +1,7 @@
 import EducationCard from "./common/EducationCard";
-import ProjectCard from "./common/ProjectCard";
+import HorizontalCard from "./common/HorizontalCard";
 import SkillBadge from "./common/SkillBadge";
+import SquareCard from "./common/SquareCard";
 import Timeline from "./common/Timeline";
 import Icon from "./Icon";
 
@@ -11,8 +12,9 @@ import ThemeSwitch from "./ui/ThemeSwitch";
 
 export {
   EducationCard,
-  ProjectCard,
+  HorizontalCard,
   SkillBadge,
+  SquareCard,
   Timeline,
   Icon,
   Carousel,

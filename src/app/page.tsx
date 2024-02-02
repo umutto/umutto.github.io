@@ -39,7 +39,7 @@ export default function Home() {
           <Awards />
           <div className="divider h-px overflow-hidden" />
         </section>
-        <section id="contact" className="py-16 md:px-4 lg:px-8 xl:px-16">
+        <section id="contact" className="pb-16 md:px-4 lg:px-8 xl:px-16">
           <Socials />
         </section>
       </main>

@@ -4,17 +4,17 @@ const languages = [
   {
     value: 100,
     text: "Turkish (Native)",
-    className: "text-slate-800",
+    className: "text-secondary",
   },
   {
     value: 90,
     text: "English (Professional)",
-    className: "text-slate-600",
+    className: "text-secondary/90",
   },
   {
     value: 70,
     text: "Japanese (Conversational)",
-    className: "text-slate-500",
+    className: "text-secondary/70",
   },
 ];
 

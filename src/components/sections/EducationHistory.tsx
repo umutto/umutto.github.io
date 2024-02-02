@@ -13,7 +13,7 @@ export default function EducationHistory() {
   return (
     <>
       <SectionHeader>Education</SectionHeader>
-      <div className="py-4 mx-2">
+      <div className="py-2 mx-2">
         {educationInstitutions.map((institution) => (
           <EducationCard key={institution.name} {...institution} />
         ))}

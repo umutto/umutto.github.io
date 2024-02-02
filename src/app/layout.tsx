@@ -5,6 +5,7 @@ import { Person, WithContext } from "schema-dts";
 import "./globals.css";
 
 import AnimatedBackground from "@/components/AnimatedBackground";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://umu.to"),
@@ -114,6 +115,7 @@ export default function RootLayout({
         />
         <AnimatedBackground />
       </body>
+      <GoogleAnalytics gaId="G-04PH07ZCQE" />
     </html>
   );
 }

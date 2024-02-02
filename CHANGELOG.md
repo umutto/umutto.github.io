@@ -2,6 +2,33 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.5](https://github.com/umutto/umutto.github.io/compare/v0.1.4...v0.1.5) (2024-02-02)
+
+
+### Features
+
+* add awards section ([df7be86](https://github.com/umutto/umutto.github.io/commit/df7be861a9d42e28e1b7e83086a4e6d4c29b7665))
+* add badge like ui link component ([d0c3c8b](https://github.com/umutto/umutto.github.io/commit/d0c3c8bffbb1e0fafa726604a0b7238b906e61e4))
+* add contact badge buttons ([25c3bfa](https://github.com/umutto/umutto.github.io/commit/25c3bfab23e55beb491dd14dce860364771b879c))
+* add date formatter util ([6634174](https://github.com/umutto/umutto.github.io/commit/66341740f9e931b639d73c85883ac9a27b98926d))
+* add education card component ([c959a27](https://github.com/umutto/umutto.github.io/commit/c959a27f4438745ff1892ef29e807885c5c0c993))
+* add google analytics via third-parties ([0e836aa](https://github.com/umutto/umutto.github.io/commit/0e836aa490e9fd7e7e98463324ac8dad05306301))
+* add language dial component ([fec0643](https://github.com/umutto/umutto.github.io/commit/fec06431e0ea77528fd9b3c5ca8e647c07ba2743))
+* add projects section ([81ea740](https://github.com/umutto/umutto.github.io/commit/81ea7407f8ab7f61a57f9ceefc8b36cd8812df71))
+* add resume file ([8ba0a8f](https://github.com/umutto/umutto.github.io/commit/8ba0a8f8cabd431d3b162b1fb7d0321eb149a7a8))
+* add skills section w/ skill badges ([a42a84b](https://github.com/umutto/umutto.github.io/commit/a42a84b05f008cad2f1d1c6c551e7060ee87cd6a))
+* add static project images and files ([c67bc24](https://github.com/umutto/umutto.github.io/commit/c67bc24a70f045e09785e46e07ecd1187e3866c6))
+
+
+### Bug Fixes
+
+* aria-labels on navbar for improved accessibility ([6019ca5](https://github.com/umutto/umutto.github.io/commit/6019ca52437c7a428360cc9447a34763bb10dbdc))
+* css nesting config for tailwind ([a9fa6ec](https://github.com/umutto/umutto.github.io/commit/a9fa6ecebcba8a867befbef8d5cf8be733f1800c))
+* footer spacing ([f8087d3](https://github.com/umutto/umutto.github.io/commit/f8087d339ab0900990161b092eaaa4c3ef2e601a))
+* readme whitespace ([de3d48f](https://github.com/umutto/umutto.github.io/commit/de3d48fe6e146456fd4fc59e3c1349acda75a2d2))
+* remove deprecated next/image directives ([451fb52](https://github.com/umutto/umutto.github.io/commit/451fb52d04882b33c44b4e23da7e8aa13609d162))
+* slight yeditepe logo improvement ([4682ea4](https://github.com/umutto/umutto.github.io/commit/4682ea4bd02407ef029093de5a0a72166406376f))
+
 ### [0.1.4](https://github.com/umutto/umutto.github.io/compare/v0.1.3...v0.1.4) (2024-02-01)
 
 

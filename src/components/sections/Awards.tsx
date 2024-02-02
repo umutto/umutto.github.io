@@ -7,7 +7,7 @@ const awards = [
     subtitle: "Issued by Tokyo ODPT, INIAD · Dec 2019",
     image: "/images/odpt.webp",
     description:
-      "The railway system in Tokyo can be overwhelming and intimidating at first glance. Speaking from personal experience, this is particularly true for foreigners visiting for the first time. This engaging web app aims to showcase the intricate harmony of this complex system by utilizing train schedules provided by ODPT and customizable map triggers to generate music.",
+      "Sounds of Transport aims to showcase the intricate harmony behind Tokyo's complex railway system by utilizing train schedules provided by ODPT and customizable map triggers to generate music.",
     links: [
       {
         url: "https://sounds.umu.to/",

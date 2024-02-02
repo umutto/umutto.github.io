@@ -34,8 +34,9 @@ export default function Hero() {
               👋 Say hello!
             </a>
             <a
-              href="#"
+              href="/files/umut_karakulak-resume.pdf"
               className="btn btn-outline md:btn-lg rounded-full font-light btn-wide"
+              download
             >
               <Icon name="Download" /> Download CV
             </a>

@@ -44,7 +44,7 @@ const awards = [
         title: "Wikipedia",
       },
       {
-        url: "/files/imagine_cup_yearbook.pdf",
+        url: "/files/umut_karakulak-imagine_cup_yearbook.pdf",
         icon: "BookMarked" as const,
         title: "Excerpt",
         isFileDownload: true,

@@ -71,7 +71,7 @@ const projects = [
     image: "/images/graduation_project.webp",
     links: [
       {
-        url: "/files/graduation_paper.pdf",
+        url: "/files/umut_karakulak-graduation_paper.pdf",
         icon: "GraduationCap" as const,
         title: "Paper",
         isFileDownload: true,

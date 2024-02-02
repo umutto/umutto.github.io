@@ -1,3 +1,4 @@
+import { CSSProperties } from "react";
 import { IconName } from "@/components/Icon";
 
 export type BadgeLinkProps = {
@@ -8,3 +9,6 @@ export type BadgeLinkProps = {
 };
 
 export type CodeLine = { prefix?: string; className?: string; code: string };
+
+export type CSSPropertiesWithVars = CSSProperties &
+  Record<`--${string}`, number | string>;

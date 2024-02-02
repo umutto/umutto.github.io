@@ -1,4 +1,5 @@
 import EducationCard from "./common/EducationCard";
+import LanguageDial from "./common/LanguageDial";
 import ShowcaseCard from "./common/ShowcaseCard";
 import SkillBadge from "./common/SkillBadge";
 import Timeline from "./common/Timeline";
@@ -12,6 +13,7 @@ import ThemeSwitch from "./ui/ThemeSwitch";
 
 export {
   EducationCard,
+  LanguageDial,
   SkillBadge,
   ShowcaseCard,
   Timeline,

@@ -1,11 +1,11 @@
-import { HorizontalCard, SectionHeader } from "@/components";
+import { SectionHeader, ShowcaseCard } from "@/components";
 
 const awards = [
   {
     title:
       "Tokyo Public Transportation Open Data Challenge INIAD special innovation award",
     subtitle: "Issued by Tokyo ODPT, INIAD · Dec 2019",
-    image: ["/images/odpt.webp", "/images/odpt1.webp", "/images/odpt2.webp"],
+    image: "/images/odpt.webp",
     description:
       "The railway system in Tokyo can be overwhelming and intimidating at first glance. Speaking from personal experience, this is particularly true for foreigners visiting for the first time. This engaging web app aims to showcase the intricate harmony of this complex system by utilizing train schedules provided by ODPT and customizable map triggers to generate music.",
     links: [
@@ -41,7 +41,7 @@ const awards = [
       {
         url: "https://en.wikipedia.org/wiki/Imagine_Cup",
         icon: "Info" as const,
-        title: "Imagine Cup",
+        title: "Wikipedia",
       },
       {
         url: "/files/imagine_cup_yearbook.pdf",
@@ -59,7 +59,7 @@ export default function Awards() {
       <SectionHeader>Awards</SectionHeader>
       <div className="py-2 mx-2 grid gap-4">
         {awards.map((award, idx) => (
-          <HorizontalCard key={idx} {...award} />
+          <ShowcaseCard orientation="horizontal" key={idx} {...award} />
         ))}
       </div>
     </>

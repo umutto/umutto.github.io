@@ -1,4 +1,4 @@
-export type CodeLine = { prefix?: string; className?: string; code: string };
+import { CodeLine } from "@/types/props";
 
 export default function CodeMockup({ lines }: { lines: CodeLine[] }) {
   return (

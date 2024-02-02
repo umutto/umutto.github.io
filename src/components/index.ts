@@ -1,3 +1,4 @@
+import ContactBadge from "./common/ContactBadge";
 import EducationCard from "./common/EducationCard";
 import LanguageDial from "./common/LanguageDial";
 import ShowcaseCard from "./common/ShowcaseCard";
@@ -11,6 +12,7 @@ import SectionHeader from "./ui/SectionHeader";
 import ThemeSwitch from "./ui/ThemeSwitch";
 
 export {
+  ContactBadge,
   EducationCard,
   LanguageDial,
   SkillBadge,

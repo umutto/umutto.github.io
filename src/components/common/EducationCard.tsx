@@ -20,14 +20,8 @@ export default function EducationCard({
   return (
     <div className="card md:card-side bg-base-100 shadow-xl mx-auto md:max-w-xl lg:max-w-2xl xl:max-w-4xl">
       {image && (
-        <figure className="bg-white">
-          <Image
-            className="my-4 mx-2 md:ml-6"
-            src={image}
-            alt={name}
-            height={60}
-            width={200}
-          />
+        <figure className="bg-white p-2 min-h-24">
+          <Image src={image} alt={name} height={60} width={200} />
         </figure>
       )}
       <div className="card-body">

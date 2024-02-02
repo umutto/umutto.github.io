@@ -8,12 +8,15 @@ import { CodeLine } from "../ui/CodeMockup";
 
 type MockupImage = { mobile: string; browser: string };
 
+type ProjectLink = { url: string; icon: IconName; title?: string };
+
 type ProjectCardProps = {
   title: string;
+  role: string;
   description: string;
-  className: string;
-  image?: string[] | MockupImage | CodeLine[];
-  links?: { url: string; icon: IconName; title?: string }[];
+  className?: string;
+  image?: string | string[] | MockupImage | CodeLine[];
+  links?: ProjectLink[];
 };
 
 function isStringArray(o: unknown): o is string[] {
@@ -30,6 +33,7 @@ function isCodeLineArray(o: unknown): o is CodeLine[] {
 
 export default function ProjectCard({
   title,
+  role,
   description,
   className,
   image,
@@ -65,26 +69,35 @@ export default function ProjectCard({
     );
   } else if (isCodeLineArray(image)) {
     cardImage = <CodeMockup lines={image} />;
+  } else if (typeof image === "string") {
+    cardImage = (
+      <figure className="bg-white p-2 min-h-24">
+        <Image src={image} alt={title} width={320} height={168} className="rounded" />
+      </figure>
+    );
   }
 
   return (
-    <div className={twMerge("card lg:card-side bg-base-100 shadow-xl glass", className)}>
-      {cardImage && <figure>{cardImage}</figure>}
-      <div className="card-body">
-        <h2 className="card-title">{title}</h2>
-        <p className="line-clamp-4">{description}</p>
+    <div className={twMerge("card lg:card-side bg-base-100 shadow-xl", className)}>
+      {cardImage}
+      <div className="card-body py-4 gap-1 lg:w-3/4">
+        <div className="px-1">
+          <h2 className="card-title">{title}</h2>
+          <p className="font-thin text-sm">{role}</p>
+        </div>
+        <p className="md:line-clamp-4">{description}</p>
         {links && (
-          <div className="card-actions justify-end">
+          <div className="card-actions justify-end mt-2">
             {links?.map((link) => (
               <Link
                 key={link.url}
                 href={link.url}
                 rel="noreferrer"
                 target="_blank"
-                className="btn-accent badge"
+                className="btn-secondary btn btn-sm"
                 title={link.title}
               >
-                {link.icon ? <Icon name={link.icon} /> : link.title}
+                {link.icon && <Icon name={link.icon} />} {link.title}
               </Link>
             ))}
           </div>

@@ -1,8 +1,4 @@
 {
-  "not_found": {
-    "Page not found": "Page not found",
-    "Return back to index": "Return back to index"
-  },
   "metadata": {
     "Title": "Umut Karakulak's Portfolio: Web Development & Machine Learning",
     "Description": "Someone who is passionate about experimenting with innovative, state of the art technologies. Currently working as a full-stack developer with a touch of machine learning for good measure. Explore my portfolio and feel free to say hi!"
@@ -15,8 +11,8 @@
   "home": {
     "hero": {
       "Title": "Web Development & Machine Learning",
-      "Description": "Someone who is passionate about experimenting with innovative, state of the art technologies. Currently working as a full-stack developer with a touch of machine learning for good measure.",
-      "Say hello!": "Say hello!",
+      "Description": "  Someone who is passionate about experimenting with innovative, state of the art technologies. Currently working as a full-stack developer with a touch of machine learning for good measure.",
+      "Say hello!": "👋 Say hello!",
       "Download CV": "Download CV"
     },
     "Skills": "Skills",
@@ -121,6 +117,7 @@
         "description": "Co-developer of CogoStuff, winner of Imagine Cup Turkey 2009 in software development branch, world finalist."
       }
     },
+    "Ready to say hello?": "Ready to say hello?",
     "link_badges": {
       "Demo": "Demo",
       "Paper": "Paper",
@@ -129,6 +126,9 @@
       "Website": "Website",
       "Wikipedia": "Wikipedia"
     },
-    "Ready to say hello?": "Ready to say hello?"
+    "not_found": {
+      "Page not found": "Page not found",
+      "Return back to index": "Return back to index"
+    }
   }
 }

@@ -17,12 +17,12 @@ const awards = [
       {
         url: "https://tokyochallenge.odpt.org/2019/award/07.html#v",
         icon: "Medal" as const,
-        title: "ODPT",
+        title: "Website",
       },
       {
         url: "https://github.com/umutto/sounds-of-transport",
         icon: "Github" as const,
-        title: "Source",
+        title: "Repository",
       },
       {
         url: "https://www.youtube.com/watch?v=3T8Z85FUt2U",

@@ -1,8 +1,12 @@
 import Image from "next/image";
 
 import { Icon } from "@/components";
+import { localeKey } from "@/config";
+import { getTranslator } from "@/utils/localization";
 
-export default function Hero() {
+export default async function Hero({ locale }: { locale: localeKey }) {
+  const t = await getTranslator(locale, ["home", "hero"]);
+
   return (
     <section className="hero py-10 flex justify-center overflow-hidden border-b">
       <div className="hero-content flex-col lg:flex-row-reverse">
@@ -19,26 +23,22 @@ export default function Hero() {
             <span className="text-primary">Umut</span> Karakulak
           </h1>
           <div className="text-base-content/35 xl:text-end md:text-2xl lg:mx-6">
-            Web Development & Machine Learning
+            {t("Title")}
           </div>
-          <p className="py-6 lg:max-w-xl lg:mx-4 xl:mx-6">
-            &emsp;Someone who is passionate about experimenting with innovative, state of
-            the art technologies. Currently working as a full-stack developer with a touch
-            of machine learning for good measure.
-          </p>
+          <p className="py-6 lg:max-w-xl lg:mx-4 xl:mx-6">{t("Description")}</p>
           <div className="flex gap-2 justify-center flex-wrap md:flex-nowrap">
             <a
               href="#contact"
               className="btn btn-neutral md:btn-lg rounded-full shadow-md btn-wide"
             >
-              👋 Say hello!
+              {t("Say hello!")}
             </a>
             <a
               href="/files/umut_karakulak-resume.pdf"
               className="btn btn-outline md:btn-lg rounded-full font-light btn-wide"
               download
             >
-              <Icon name="Download" /> Download CV
+              <Icon name="Download" /> {t("Download CV")}
             </a>
           </div>
         </div>

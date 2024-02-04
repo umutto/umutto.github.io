@@ -1,4 +1,6 @@
 import { Timeline } from "@/components";
+import { localeKey } from "@/config";
+import { getTranslator } from "@/utils/localization";
 
 const timelineEvents = [
   {
@@ -65,10 +67,23 @@ const timelineEvents = [
   },
 ];
 
-export default function WorkHistory() {
+export default async function WorkHistory({ locale }: { locale: localeKey }) {
+  const t = await getTranslator(locale, ["home", "work"]);
+
   return (
     <div className="mx-1">
-      <Timeline timeline={timelineEvents} />
+      <Timeline
+        timeline={timelineEvents.map((c) => ({
+          ...c,
+          name: t(c.name),
+          location: t(c.location),
+          events: c.events.map((e) => ({
+            ...e,
+            title: t(e.title),
+            description: t(e.description),
+          })),
+        }))}
+      />
     </div>
   );
 }

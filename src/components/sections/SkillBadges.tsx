@@ -1,4 +1,6 @@
 import { SkillBadge } from "@/components";
+import { localeKey } from "@/config";
+import { getTranslator } from "@/utils/localization";
 
 const skills = [
   {
@@ -99,11 +101,13 @@ const skills = [
   },
 ];
 
-export default function SkillBadges() {
+export default async function SkillBadges({ locale }: { locale: localeKey }) {
+  const t = await getTranslator(locale, ["home", "skills"]);
+
   return (
     <div className="flex justify-center gap-1 flex-wrap py-2">
       {skills.map((skill, idx) => (
-        <SkillBadge key={idx} {...skill} />
+        <SkillBadge key={idx} title={t(skill.title)} icon={skill.icon} />
       ))}
     </div>
   );

@@ -1,7 +1,10 @@
 import { ShowcaseCard } from "@/components";
+import { localeKey } from "@/config";
+import { getTranslator } from "@/utils/localization";
 
 const projects = [
   {
+    key: "wearee",
     title: "WeARee!",
     subtitle: "Lead Development & Project Management",
     image: "/images/wearee.webp",
@@ -16,6 +19,7 @@ const projects = [
     ],
   },
   {
+    key: "crypto_tax",
     title: "Cryptocurrency Tax Calculator",
     subtitle: "Personal Project",
     description:
@@ -30,6 +34,7 @@ const projects = [
     ],
   },
   {
+    key: "buddy_19",
     title: "Buddy-19",
     subtitle: "Personal Project",
     description:
@@ -49,6 +54,7 @@ const projects = [
     ],
   },
   {
+    key: "computer_vision",
     title: "Computer Vision API",
     subtitle: "Lead Development",
     description:
@@ -56,6 +62,7 @@ const projects = [
     image: "/images/cv.webp",
   },
   {
+    key: "natural_language",
     title: "Natural Language Understanding API",
     subtitle: "Lead Development",
     description:
@@ -63,6 +70,7 @@ const projects = [
     image: "/images/nlp.webp",
   },
   {
+    key: "music_generation",
     title:
       "Artificial Musical Compositions Using Deep Belief Nets and Genetic Algorithms",
     subtitle: "Author",
@@ -80,11 +88,22 @@ const projects = [
   },
 ];
 
-export default function Projects() {
+export default async function Projects({ locale }: { locale: localeKey }) {
+  const t = await getTranslator(locale, ["home", "projects"]);
+  const t_links = await getTranslator(locale, ["home", "badge_links"]);
+
   return (
     <div className="py-2 mx-2 grid sm:grid-cols-2 xl:grid-cols-3 gap-6 sm:gap-4 xl:gap-6">
-      {projects.map((project, idx) => (
-        <ShowcaseCard key={idx} orientation="vertical" {...project} />
+      {projects.map((project) => (
+        <ShowcaseCard
+          {...project}
+          key={project.key}
+          orientation="vertical"
+          title={t(project.key).title}
+          subtitle={t(project.key).subtitle}
+          description={t(project.key).description}
+          links={project.links?.map((l) => ({ ...l, title: t_links(l.title) }))}
+        />
       ))}
     </div>
   );

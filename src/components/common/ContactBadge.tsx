@@ -15,7 +15,7 @@ export default function ContactBadge({ title, icon, url, className }: ContactBad
     <Link
       href={url}
       className={twMerge(
-        "btn btn-outline btn-accent border-4 bg-base-100 md:btn-lg rounded-full btn-wide shadow-md hover:!text-neutral-content",
+        "btn btn-outline btn-error border-4 bg-base-100 md:btn-lg rounded-full btn-wide shadow-md hover:!text-neutral-content",
         className
       )}
       rel="noreferrer"

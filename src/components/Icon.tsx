@@ -25,6 +25,7 @@ const Icon = memo(({ name, className, strokeWidth }: IconProps) => {
     <IconComponent
       className={twMerge("size-4 mx-1", className)}
       strokeWidth={strokeWidth || 2.5}
+      aria-label={name}
     />
   );
 });

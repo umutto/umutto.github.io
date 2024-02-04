@@ -9,7 +9,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html>
+    <html lang="en">
       {children}
       <GoogleAnalytics gaId="G-04PH07ZCQE" />
     </html>

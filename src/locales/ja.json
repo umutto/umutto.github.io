@@ -1,21 +1,21 @@
 {
   "metadata": {
-    "Title": "Umut Karakulak's Portfolio: Web Development & Machine Learning",
-    "Description": "Someone who is passionate about experimenting with innovative, state of the art technologies. Currently working as a full-stack developer with a touch of machine learning for good measure. Explore my portfolio and feel free to say hi!"
-  },
-  "navigation": {
-    "About": "About",
-    "Projects": "Projects",
-    "Contact": "Contact"
+    "Title": "Umut Karakulak のポートフォリオ: Web開発と機械学習",
+    "Description": "革新的で最先端のテクノロジーを実験することに情熱を持っている人。 現在はフルスタック開発者として働いており、機械学習に携わっています。ポートフォリオをご覧になり、お気軽にご連絡してください。"
   },
   "home": {
-    "hero": {
-      "Title": "Web Development & Machine Learning",
-      "Description": "  Someone who is passionate about experimenting with innovative, state of the art technologies. Currently working as a full-stack developer with a touch of machine learning for good measure.",
-      "Say hello!": "👋 Say hello!",
-      "Download CV": "Download CV"
+    "navigation": {
+      "About": "プロフィール",
+      "Projects": "開発",
+      "Contact": "問い合わせ"
     },
-    "Skills": "Skills",
+    "hero": {
+      "Title": "Web開発と機械学習",
+      "Description": "  革新的で最先端のテクノロジーを実験することに情熱を持っている人。 現在はフルスタック開発者として働いており、機械学習に携わっています。",
+      "Say hello!": "👋 お問い合わせ",
+      "Download CV": "履歴書"
+    },
+    "Skills": "スキル",
     "skills": {
       "Python": "Python",
       "SQL": "SQL",
@@ -27,108 +27,93 @@
       "AWS": "AWS",
       "Django": "Django",
       "Flask": "Flask",
-      "Computer Vision": "Computer Vision",
+      "Computer Vision": "コンピュータビジョン",
       "NLP": "NLP",
-      "Machine Learning": "Machine Learning",
+      "Machine Learning": "機械学習",
       "AR / VR": "AR / VR",
       "NumPy": "NumPy",
       "Pandas": "Pandas",
       "Tensorflow": "Tensorflow",
       "Keras": "Keras",
-      "Data Visualization": "Data Visualization",
+      "Data Visualization": "データの視覚化",
       "Linux": "Linux",
       "Git": "Git",
-      "Web Design": "Web Design",
+      "Web Design": "Webデザイン",
       "HTML": "HTML",
       "CSS": "CSS"
     },
-    "Languages": "Languages",
+    "Languages": "言語",
     "languages": {
-      "Turkish": "トルコ語 (Native)",
-      "English": "英語 (Professional)",
-      "Japanese": "日本語 (Conversational)"
+      "Turkish": "トルコ語 (母国語)",
+      "English": "英語 (ビジネス)",
+      "Japanese": "日本語 (上級)"
     },
-    "Work": "Work History",
+    "Work": "職歴",
     "work": {
-      "Dunksoft": "Dunksoft Co.,Ltd",
-      "Tokyo, Japan": "Tokyo, Japan",
-      "Full Stack Engineer": "Full Stack Engineer",
-      "Present": "Present",
-      "Dunksoft full stack work description": "Development lead and management of WeARee! an innovative community creation platform for everyone.",
-      "Data Scientist": "Data Scientist",
-      "Dunksoft data science work description": "Research, data analysis, preparation and realization of in-house machine learning models and API's on a variety of problem domains.",
+      "DUNKSOFT Co.,Ltd": "Dunksoft Co.,Ltd",
+      "Full Stack Engineer": "フルスタックエンジニア",
+      "Present": "現在",
+      "Dunksoft full stack work description": "誰もが利用できる革新的なコミュニティ作成プラットフォームWeARee!の開発責任者兼運営。",
+      "Data Scientist": "データサイエンティスト",
+      "Dunksoft data science work description": "さまざまな問題領域に関する社内使用の機械学習モデルと API の調査、データ分析、準備、実現。",
       "obase": "obase",
-      "Istanbul, Turkey": "Istanbul, Turkey",
-      "Software Engineering Intern": "Software Engineering Intern",
-      "obase intern description": "Played an active role on development for an ERP project for a large e-commerce company.",
-      "Dunksoft intern description": "Development of an innovative video conferencing tool using Microsoft Kinect for pose estimation and speech analysis.",
-      "Freelance": "Freelance",
-      "Software Developer": "Software Developer",
-      "Freelance work description": "Intermittently worked as a freelancer for a wide variety of companies including Microsoft Turkey. Developing mostly windows applications using .NET framework."
+      "Software Engineering Intern": "ソフトウェアエンジニアリングインターン",
+      "obase intern description": "大手EC企業のERPプロジェクトの開発に携わる。",
+      "Dunksoft intern description": "Microsoft Kinect を使用して姿勢推定と音声分析を行う革新的なビデオ会議ツールの開発。",
+      "Freelance": "フリーランス",
+      "Software Developer": "ソフトウェア開発者",
+      "Freelance work description": "断続的に、Microsoft Turkey を含むさまざまな企業でフリーランサーとして働いていました。 主に.NET Frameworkを使用したWindowsアプリケーションの開発を行っています。"
     },
-    "Education": "Education",
+    "Education": "学歴",
     "education": {
-      "Yeditepe University": "Yeditepe University",
-      "Bachelor's degree, Computer Science Engineering": "Bachelor's degree, Computer Science Engineering"
+      "Bachelor's degree, Computer Science Engineering": "学士号、コンピュータサイエンス工学"
     },
-    "Projects": "Projects",
+    "Projects": "開発",
     "projects": {
       "wearee": {
-        "Title": "WeARee!",
-        "Subtitle": "Lead Development & Project Management",
-        "Description": "A SaaS platform where users can create interactive spaces, without any coding knowledge. WeARee! aims to provide fun and innovative tools for building communities, accessible to anyone from anywhere. These tools include AR events, web page creation, virtual tours, 3D models, stamp rallies, and much more."
+        "title": "WeARee!",
+        "subtitle": "開発リードとプロジェクトマネジメント",
+        "description": "ユーザーがコーディングの知識がなくてもインタラクティブなスペースを作成できる SaaS プラットフォーム。 WeARee! は、誰でもどこからでもアクセスできる、コミュニティを構築するための楽しく革新的なツールを提供することを目指しています。 これらのツールには、AR イベント、Web ページ作成、バーチャル ツアー、3D モデル、スタンプ ラリーなどが含まれます。"
       },
       "crypto_tax": {
-        "title": "Cryptocurrency Tax Calculator",
-        "subtitle": "Personal Project",
-        "description": "Most famous tax calculators either did not have proper support for the platforms I've used or was not supporting Japanese tax formula. Domestic tools were too expensive to justify, with these excuses created my own tax calculator to practice my web dev."
+        "title": "暗号通貨税計算ツール",
+        "subtitle": "個人プロジェクト",
+        "description": "ほとんどの有名な税金計算ツールは、私が使用したプラットフォームを適切にサポートしていないか、日本の税金計算式をサポートしていませんでした。 国内のツールを正当化するにはコストが高すぎました。これらのことから、Web 開発の練習のために独自の税金計算ツールを作成しました。"
       },
       "buddy_19": {
         "title": "Buddy-19",
-        "subtitle": "Personal Project",
-        "description": "A web app that has been created during initial months of COVID-19 lockdown. A platform where multiple people can watch videos, play games and even create custom flows together using web sockets. Meant as a complimentary app for online meetings, thus the name buddy-19."
+        "subtitle": "個人プロジェクト",
+        "description": "新型コロナウイルス感染症によるロックダウンの最初の数カ月間に作成されたウェブアプリ。 Web ソケットを使用して、複数の人がビデオを見たり、ゲームをプレイしたり、カスタム フローを一緒に作成したりできるプラットフォームです。 オンライン会議用の無料アプリとして意図されているため、buddy-19 という名前が付けられました。"
       },
       "computer_vision": {
-        "title": "Computer Vision API",
-        "subtitle": "Lead Development",
-        "description": "Developed a variety of machine learning APIs and models for internal use, specifically focusing on transparent image processing and analysis. With all the black-box steps of the deep neural networks are exposed in a human readable way as much as possible, ensuring clarity in the process."
+        "title": "コンピュータビジョンAPI",
+        "subtitle": "開発",
+        "description": "特に明確な画像の処理と分析に重点を置き、社内使用のためのさまざまな機械学習 API とモデルを開発しました。 ディープ ニューラル ネットワークのすべてのステップがブラックボックス化されているため、人間が判読できる方法で可能な限り公開されており、プロセスの明確性が確保されています。"
       },
       "natural_language": {
-        "title": "Natural Language Understanding API",
-        "subtitle": "Lead Development",
-        "description": "Developed a variety of machine learning APIs and models for natural language understanding, with a focus on the Japanese language for internal company use. This includes keyword extraction, summarization, similarity index, emotion analysis, and many more."
+        "title": "自然言語理解 API",
+        "subtitle": "開発",
+        "description": "社内向けの日本語を中心に、自然言語理解のためのさまざまな機械学習APIやモデルを開発。 これには、キーワードの抽出、要約、類似性インデックス、感情分析などが含まれます。"
       },
       "music_generation": {
-        "title": "Artificial Musical Compositions Using Deep Belief Nets and Genetic Algorithms",
-        "subtitle": "Author",
-        "description": "As a graduation project, I've designed an innovative method for composing music using a hybrid structure. The fitness function of a genetic algorithm is constructed from a k-means filter of an unsupervised neural network output. This structure allows for the emulation of human behaviors without introducing any bias."
+        "title": "Deep Belief Networkと遺伝的アルゴリズムを使用した人工音楽作品",
+        "subtitle": "著者",
+        "description": "卒論として、ハイブリッド構造を使用した革新的な作曲方法を設計しました。 遺伝的アルゴリズムの適応度関数は、教師なしニューラル ネットワーク出力の k-means フィルターから構築されます。 この構造により、バイアスを導入することなく人間の行動をエミュレートすることができます。"
       }
     },
-    "Awards": "Awards",
+    "Awards": "受賞歴",
     "awards": {
       "odpt": {
-        "title": "Tokyo Public Transportation Open Data Challenge INIAD special innovation award",
-        "subtitle": "Issued by Tokyo ODPT, INIAD · Dec 2019",
-        "description": "Sounds of Transport aims to showcase the intricate harmony behind Tokyo's complex railway system by utilizing train schedules provided by ODPT and customizable map triggers to generate music."
+        "title": "東京公共交通オープンデータチャレンジINIAD特別賞",
+        "subtitle": "主催 東京ODPT、INIAD・2019年12月",
+        "description": "Sounds of Transport は、ODPT が提供する列車時刻表とカスタマイズ可能なマップ トリガーを利用して音楽を生成することで、東京の複雑な鉄道システムの背後にある複雑なハーモニーを紹介することを目的としています。"
       },
       "imagine_cup": {
-        "title": "Imagine Cup 2009 World Finalist",
-        "subtitle": "Issued by Microsoft · Jul 2009",
-        "description": "Co-developer of CogoStuff, winner of Imagine Cup Turkey 2009 in software development branch, world finalist."
+        "title": "Imagine Cup 2009ワールドファイナリスト",
+        "subtitle": "主催  Microsoft · 2009年7月",
+        "description": "CogoStuff の共同開発者、Imagine Cup Turkey 2009 のソフトウェア開発部門の優勝者、世界ファイナリスト。"
       }
     },
-    "Ready to say hello?": "Ready to say hello?",
-    "link_badges": {
-      "Demo": "Demo",
-      "Paper": "Paper",
-      "Repository": "Repository",
-      "Video": "Video",
-      "Website": "Website",
-      "Wikipedia": "Wikipedia"
-    },
-    "not_found": {
-      "Page not found": "Page not found",
-      "Return back to index": "Return back to index"
-    }
+    "Ready to say hello?": "Ready to say hello?"
   }
 }

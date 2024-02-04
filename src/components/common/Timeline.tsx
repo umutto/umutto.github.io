@@ -1,6 +1,10 @@
+"use server";
+
 import Image from "next/image";
 import { Icon } from "@/components";
+import { localeKey } from "@/config";
 import { formatLocaleDate } from "@/utils/formatters";
+import { getTranslator } from "@/utils/localization";
 
 type TimelineEvent = {
   title: string;
@@ -10,6 +14,7 @@ type TimelineEvent = {
 };
 
 type TimelineProps = {
+  locale: localeKey;
   timeline: {
     name: string;
     location?: string;
@@ -18,14 +23,18 @@ type TimelineProps = {
   }[];
 };
 
-export default function Timeline({ timeline }: TimelineProps) {
+export default async function Timeline({ locale, timeline }: TimelineProps) {
+  const t = await getTranslator(locale, ["home", "work"]);
+
   return (
     <ul className="timeline max-md:timeline-compact timeline-vertical">
       {timeline.map((company, idx) => {
         const events = company.events.map((event, idy) => {
-          const dateFromFormatted = formatLocaleDate(event.dateFrom);
+          const dateFromFormatted = formatLocaleDate(locale, event.dateFrom);
           const dateToFormatted =
-            event.dateTo === "present" ? event.dateTo : formatLocaleDate(event.dateTo);
+            event.dateTo instanceof Date
+              ? formatLocaleDate(locale, event.dateTo)
+              : t("Present");
 
           return (
             <div key={idy} className="mb-4">

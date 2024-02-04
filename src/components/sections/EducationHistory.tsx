@@ -20,7 +20,6 @@ export default async function EducationHistory({ locale }: { locale: localeKey }
         <EducationCard
           key={institution.name}
           {...institution}
-          name={t(institution.name)}
           degree={t(institution.degree)}
         />
       ))}

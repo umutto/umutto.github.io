@@ -1,13 +1,11 @@
 import { ShowcaseCard } from "@/components";
+import { localeKey } from "@/config";
+import { getTranslator } from "@/utils/localization";
 
 const awards = [
   {
-    title:
-      "Tokyo Public Transportation Open Data Challenge INIAD special innovation award",
-    subtitle: "Issued by Tokyo ODPT, INIAD · Dec 2019",
+    key: "odpt",
     image: "/images/odpt.webp",
-    description:
-      "Sounds of Transport aims to showcase the intricate harmony behind Tokyo's complex railway system by utilizing train schedules provided by ODPT and customizable map triggers to generate music.",
     links: [
       {
         url: "https://sounds.umu.to/",
@@ -32,11 +30,8 @@ const awards = [
     ],
   },
   {
-    title: "Imagine Cup 2009 World Finalist",
-    subtitle: "Issued by Microsoft · Jul 2009",
+    key: "imagine_cup",
     image: "/images/cogostuff.webp",
-    description:
-      "Co-developer of CogoStuff, winner of Imagine Cup Turkey 2009 in software development branch, world finalist.",
     links: [
       {
         url: "https://en.wikipedia.org/wiki/Imagine_Cup",
@@ -53,11 +48,20 @@ const awards = [
   },
 ];
 
-export default function Awards() {
+export default async function Awards({ locale }: { locale: localeKey }) {
+  const t = await getTranslator(locale, ["home", "awards"]);
+
   return (
     <div className="pb-2 mx-2 grid gap-4">
-      {awards.map((award, idx) => (
-        <ShowcaseCard orientation="horizontal" key={idx} {...award} />
+      {awards.map((award) => (
+        <ShowcaseCard
+          orientation="horizontal"
+          {...award}
+          key={award.key}
+          title={t(award.key).title}
+          subtitle={t(award.key).subtitle}
+          description={t(award.key).description}
+        />
       ))}
     </div>
   );

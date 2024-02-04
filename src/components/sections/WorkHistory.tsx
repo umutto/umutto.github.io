@@ -12,15 +12,13 @@ const timelineEvents = [
         title: "Full Stack Engineer",
         dateFrom: new Date("2020-01-01"),
         dateTo: "present" as const,
-        description:
-          "Development lead and management of WeARee! an innovative community creation platform for everyone.",
+        description: "Dunksoft full stack work description",
       },
       {
         title: "Data Scientist",
         dateFrom: new Date("2017-01-01"),
         dateTo: new Date("2020-01-01"),
-        description:
-          "Research, data analysis, preparation and realization of in-house machine learning models and API's on a variety of problem domains.",
+        description: "Dunksoft data science work description",
       },
     ],
   },
@@ -33,8 +31,7 @@ const timelineEvents = [
         title: "Software Engineering Intern",
         dateFrom: new Date("2015-08-01"),
         dateTo: new Date("2015-11-01"),
-        description:
-          "Played an active role on development for an ERP project for a large e-commerce company.",
+        description: "obase intern description",
       },
     ],
   },
@@ -47,8 +44,7 @@ const timelineEvents = [
         title: "Software Engineering Intern",
         dateFrom: new Date("2011-09-01"),
         dateTo: new Date("2011-11-01"),
-        description:
-          "Development of an innovative video conferencing tool using Microsoft Kinect for pose estimation and speech analysis.",
+        description: "Dunksoft intern description",
       },
     ],
   },
@@ -60,8 +56,7 @@ const timelineEvents = [
         title: "Software Developer",
         dateFrom: new Date("2007-01-01"),
         dateTo: new Date("2010-01-01"),
-        description:
-          "Intermittently worked as a freelancer for a wide variety of companies including Microsoft Turkey. Developing mostly windows applications using .NET framework.",
+        description: "Freelance work description",
       },
     ],
   },
@@ -73,10 +68,10 @@ export default async function WorkHistory({ locale }: { locale: localeKey }) {
   return (
     <div className="mx-1">
       <Timeline
+        locale={locale}
         timeline={timelineEvents.map((c) => ({
           ...c,
           name: t(c.name),
-          location: t(c.location),
           events: c.events.map((e) => ({
             ...e,
             title: t(e.title),

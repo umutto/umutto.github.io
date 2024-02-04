@@ -1,9 +1,11 @@
-export function formatLocaleDate(date?: Date) {
+import { localeKey } from "@/config";
+
+export function formatLocaleDate(locale: localeKey, date?: Date) {
   if (!date) {
     return;
   }
 
-  return date.toLocaleDateString("en-GB", {
+  return date.toLocaleDateString(locale, {
     year: "numeric",
     month: "short",
   });

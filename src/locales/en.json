@@ -3,12 +3,12 @@
     "Title": "Umut Karakulak's Portfolio: Web Development & Machine Learning",
     "Description": "Someone who is passionate about experimenting with innovative, state of the art technologies. Currently working as a full-stack developer with a touch of machine learning for good measure. Explore my portfolio and feel free to say hi!"
   },
-  "navigation": {
-    "About": "About",
-    "Projects": "Projects",
-    "Contact": "Contact"
-  },
   "home": {
+    "navigation": {
+      "About": "About",
+      "Projects": "Projects",
+      "Contact": "Contact"
+    },
     "hero": {
       "Title": "Web Development & Machine Learning",
       "Description": "  Someone who is passionate about experimenting with innovative, state of the art technologies. Currently working as a full-stack developer with a touch of machine learning for good measure.",
@@ -50,15 +50,13 @@
     },
     "Work": "Work History",
     "work": {
-      "Dunksoft": "Dunksoft Co.,Ltd",
-      "Tokyo, Japan": "Tokyo, Japan",
+      "DUNKSOFT Co.,Ltd": "Dunksoft Co.,Ltd",
       "Full Stack Engineer": "Full Stack Engineer",
       "Present": "Present",
       "Dunksoft full stack work description": "Development lead and management of WeARee! an innovative community creation platform for everyone.",
       "Data Scientist": "Data Scientist",
       "Dunksoft data science work description": "Research, data analysis, preparation and realization of in-house machine learning models and API's on a variety of problem domains.",
       "obase": "obase",
-      "Istanbul, Turkey": "Istanbul, Turkey",
       "Software Engineering Intern": "Software Engineering Intern",
       "obase intern description": "Played an active role on development for an ERP project for a large e-commerce company.",
       "Dunksoft intern description": "Development of an innovative video conferencing tool using Microsoft Kinect for pose estimation and speech analysis.",
@@ -68,15 +66,14 @@
     },
     "Education": "Education",
     "education": {
-      "Yeditepe University": "Yeditepe University",
       "Bachelor's degree, Computer Science Engineering": "Bachelor's degree, Computer Science Engineering"
     },
     "Projects": "Projects",
     "projects": {
       "wearee": {
-        "Title": "WeARee!",
-        "Subtitle": "Lead Development & Project Management",
-        "Description": "A SaaS platform where users can create interactive spaces, without any coding knowledge. WeARee! aims to provide fun and innovative tools for building communities, accessible to anyone from anywhere. These tools include AR events, web page creation, virtual tours, 3D models, stamp rallies, and much more."
+        "title": "WeARee!",
+        "subtitle": "Lead Development & Project Management",
+        "description": "A SaaS platform where users can create interactive spaces, without any coding knowledge. WeARee! aims to provide fun and innovative tools for building communities, accessible to anyone from anywhere. These tools include AR events, web page creation, virtual tours, 3D models, stamp rallies, and much more."
       },
       "crypto_tax": {
         "title": "Cryptocurrency Tax Calculator",
@@ -90,12 +87,12 @@
       },
       "computer_vision": {
         "title": "Computer Vision API",
-        "subtitle": "Lead Development",
+        "subtitle": "Development",
         "description": "Developed a variety of machine learning APIs and models for internal use, specifically focusing on transparent image processing and analysis. With all the black-box steps of the deep neural networks are exposed in a human readable way as much as possible, ensuring clarity in the process."
       },
       "natural_language": {
         "title": "Natural Language Understanding API",
-        "subtitle": "Lead Development",
+        "subtitle": "Development",
         "description": "Developed a variety of machine learning APIs and models for natural language understanding, with a focus on the Japanese language for internal company use. This includes keyword extraction, summarization, similarity index, emotion analysis, and many more."
       },
       "music_generation": {
@@ -117,18 +114,6 @@
         "description": "Co-developer of CogoStuff, winner of Imagine Cup Turkey 2009 in software development branch, world finalist."
       }
     },
-    "Ready to say hello?": "Ready to say hello?",
-    "link_badges": {
-      "Demo": "Demo",
-      "Paper": "Paper",
-      "Repository": "Repository",
-      "Video": "Video",
-      "Website": "Website",
-      "Wikipedia": "Wikipedia"
-    },
-    "not_found": {
-      "Page not found": "Page not found",
-      "Return back to index": "Return back to index"
-    }
+    "Ready to say hello?": "Ready to say hello?"
   }
 }

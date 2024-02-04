@@ -5,17 +5,17 @@ import { getTranslator } from "@/utils/localization";
 const languages = [
   {
     value: 100,
-    text: "Turkish (Native)",
+    text: "Turkish",
     className: "text-secondary",
   },
   {
     value: 90,
-    text: "English (Professional)",
+    text: "English",
     className: "text-secondary/90",
   },
   {
     value: 70,
-    text: "Japanese (Conversational)",
+    text: "Japanese",
     className: "text-secondary/70",
   },
 ];

@@ -17,7 +17,7 @@ export const getTranslator = async (locale: localeKey, namespace?: string[]) => 
   let dictNamespace = dict;
   namespace?.forEach((n) => (dictNamespace = dictNamespace[n]));
 
-  const translator = (s: string) => dictNamespace[s] || s;
+  const translator = (s: string) => (dictNamespace ? dictNamespace[s] : s);
 
   return translator;
 };

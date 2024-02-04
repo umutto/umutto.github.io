@@ -1,8 +1,14 @@
+import { Metadata } from "next";
 import Link from "next/link";
 
-export default function NotFound() {
+export const metadata: Metadata = {
+  metadataBase: new URL("https://umu.to"),
+  title: "umu.to | Page not found",
+};
+
+export default async function NotFound() {
   return (
-    <>
+    <body>
       <div className="flex h-screen flex-col items-center justify-center md:flex-row">
         <h1 className="inline-block pt-6 align-top text-8xl font-medium md:mr-5 md:border-e md:pb-6 md:pr-6 drop-shadow">
           404
@@ -17,6 +23,6 @@ export default function NotFound() {
           </Link>
         </div>
       </div>
-    </>
+    </body>
   );
 }

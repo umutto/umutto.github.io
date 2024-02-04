@@ -1,5 +1,3 @@
-"use server";
-
 import Image from "next/image";
 import { Icon } from "@/components";
 import { localeKey } from "@/config";

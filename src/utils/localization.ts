@@ -1,5 +1,3 @@
-import "server-only";
-
 import { localeKey, locales } from "@/config";
 
 const dictionaries = Object.fromEntries(

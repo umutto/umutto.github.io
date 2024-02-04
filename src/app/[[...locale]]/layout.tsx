@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Person, WithContext } from "schema-dts";
 
 import AnimatedBackground from "@/components/AnimatedBackground";
 import { defaultLocale, localeKey, locales } from "@/config";
 
 import "../globals.css";
+import { jsonLdProfilePage } from "@/utils/structuredData";
 
 export async function generateStaticParams() {
   const availableLocales = locales
@@ -67,45 +67,6 @@ export const metadata: Metadata = {
   },
 };
 
-const jsonLdPerson: WithContext<Person> = {
-  "@context": "https://schema.org",
-  "@type": "Person",
-  name: "Umut Karakulak",
-  familyName: "Karakulak",
-  givenName: "Umut",
-  nationality: "Turkish",
-  image: "https://umu.to/images/umut.webp",
-  jobTitle: "Software Developer",
-  worksFor: "DUNKSOFT Co.,Ltd",
-  workLocation: "Tokyo, Japan",
-  url: "https://umu.to",
-  email: "hi@umu.to",
-  knowsLanguage: ["Turkish", "English", "Japanese"],
-  contactPoint: [
-    {
-      "@type": "ContactPoint",
-      email: "hi@umu.to",
-    },
-  ],
-  sameAs: [
-    "https://www.linkedin.com/in/umutto/",
-    "https://github.com/umutto",
-    "https://stackoverflow.com/users/826970/umutto",
-  ],
-  description:
-    "Someone who is passionate about experimenting with innovative, state of the art technologies. Currently working as a full-stack developer with a touch of machine learning for good measure.",
-  alumniOf: [
-    {
-      "@type": "EducationalOrganization",
-      name: "Yeditepe University",
-    },
-  ],
-  award: [
-    "Tokyo Public Transportation Open Data Challenge INIAD special innovation award",
-    "Microsoft Imagine Cup 2009 World Finalist",
-  ],
-};
-
 export default function LocaleLayout({
   children,
   params,
@@ -119,7 +80,7 @@ export default function LocaleLayout({
       {children}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdPerson) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdProfilePage) }}
       />
       <AnimatedBackground />
     </body>

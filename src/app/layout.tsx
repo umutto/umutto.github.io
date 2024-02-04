@@ -68,7 +68,7 @@ const jsonLdPerson: WithContext<Person> = {
   familyName: "Karakulak",
   givenName: "Umut",
   nationality: "Turkish",
-  image: "https://umu.to/umut.webp",
+  image: "https://umu.to/images/umut.webp",
   jobTitle: "Software Developer",
   worksFor: "DUNKSOFT Co.,Ltd",
   workLocation: "Tokyo, Japan",

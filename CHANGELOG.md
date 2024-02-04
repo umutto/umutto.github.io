@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/umutto/umutto.github.io/compare/v0.1.6...v0.2.0) (2024-02-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* moves all paths into an optional slug and uses getStaticParams to create all possible routes. Some of the code is implemented in a way to support static generation, default locales without a prefix and less code repetition.
+
+### Features
+
+* custom localization solution for default static export ([7fb0f28](https://github.com/umutto/umutto.github.io/commit/7fb0f28947e67c52e2f01e35f5c31d45f2bd88ed))
+* implement custom localization on all routes ([87aefda](https://github.com/umutto/umutto.github.io/commit/87aefdac02ca9030f0f8615ad2a5d0146226157e))
+* localization setup on pages and components ([69aa012](https://github.com/umutto/umutto.github.io/commit/69aa012a047da58ddc65ddc8c64c46f8d92e230e))
+* meta (title, desc) localization ([2105f29](https://github.com/umutto/umutto.github.io/commit/2105f2966333923e15643b8d9780e5ec0e3c8727))
+* simple route based locale switcher ([34b703f](https://github.com/umutto/umutto.github.io/commit/34b703faf65e5c66879bfb841e507a04be77e108))
+
+
+### Bug Fixes
+
+* image link on person data ([ba070d4](https://github.com/umutto/umutto.github.io/commit/ba070d434b0210a95b47e3c64295030980196208))
+* postcss import plugin and tailwind css nesting ([3022a39](https://github.com/umutto/umutto.github.io/commit/3022a3989a0ce53108a98ca7f2d0c2550436c858))
+
 ### [0.1.6](https://github.com/umutto/umutto.github.io/compare/v0.1.5...v0.1.6) (2024-02-02)
 
 

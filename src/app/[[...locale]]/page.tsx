@@ -27,6 +27,7 @@ export default async function Home({ params }: { params?: { locale: localeKey } 
   return (
     <>
       <NavBar
+        locale={locale}
         routes={navigationRoutes.map((r) => ({ ...r, name: t("navigation")[r.name] }))}
       />
       <Hero locale={locale} />

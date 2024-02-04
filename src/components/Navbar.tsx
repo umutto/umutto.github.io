@@ -1,8 +1,9 @@
-import { Icon, ThemeSwitch } from "@/components";
+import { Icon, LocaleSwitch, ThemeSwitch } from "@/components";
+import { localeKey } from "@/config";
 
-type NavbarProps = { routes: { name: string; href: string }[] };
+type NavbarProps = { locale: localeKey; routes: { name: string; href: string }[] };
 
-export default function Navbar({ routes }: NavbarProps) {
+export default function Navbar({ locale, routes }: NavbarProps) {
   return (
     <div className="sticky top-0 z-50 flex justify-center pb-4 md:py-4">
       <div className="navbar w-full md:rounded-full bg-base-100/90 py-0 shadow-2xl outline backdrop-blur md:max-w-xl lg:max-w-4xl">
@@ -44,7 +45,8 @@ export default function Navbar({ routes }: NavbarProps) {
           ))}
         </div>
 
-        <div className="navbar-end h-10 scale-75">
+        <div className="navbar-end h-10 scale-75 gap-3">
+          <LocaleSwitch locale={locale} />
           <ThemeSwitch />
         </div>
       </div>

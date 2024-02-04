@@ -1,4 +1,10 @@
 {
+  "common": {
+    "locale": {
+      "en": "English",
+      "ja": "日本語"
+    }
+  },
   "metadata": {
     "Title": "Umut Karakulak's Portfolio: Web Development & Machine Learning",
     "Description": "Someone who is passionate about experimenting with innovative, state of the art technologies. Currently working as a full-stack developer with a touch of machine learning for good measure. Explore my portfolio and feel free to say hi!"

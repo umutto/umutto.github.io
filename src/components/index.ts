@@ -8,6 +8,7 @@ import Icon from "./Icon";
 
 import BadgeLink from "./ui/BadgeLink";
 import CodeMockup from "./ui/CodeMockup";
+import LocaleSwitch from "./ui/LocaleSwitch";
 import SectionHeader from "./ui/SectionHeader";
 import ThemeSwitch from "./ui/ThemeSwitch";
 
@@ -21,6 +22,7 @@ export {
   Icon,
   BadgeLink,
   CodeMockup,
+  LocaleSwitch,
   SectionHeader,
   ThemeSwitch,
 };

@@ -1,12 +1,11 @@
 import Image from "next/image";
 import { Icon } from "@/components";
-import { formatLocaleDate } from "@/utils/formatters";
 
 type EducationCardProps = {
   name: string;
   degree: string;
   image?: string;
-  graduation?: Date;
+  graduation?: string;
 };
 
 export default function EducationCard({
@@ -15,8 +14,6 @@ export default function EducationCard({
   image,
   graduation,
 }: EducationCardProps) {
-  const formattedGraduation = formatLocaleDate(graduation);
-
   return (
     <div className="card md:card-side bg-base-100 shadow-xl mx-auto md:max-w-xl lg:max-w-2xl xl:max-w-4xl">
       {image && (
@@ -27,11 +24,11 @@ export default function EducationCard({
       <div className="card-body">
         <h2 className="card-title">{name}</h2>
         <p>{degree}</p>
-        {formattedGraduation && (
+        {graduation && (
           <div className="card-actions justify-end">
             <time className="flex items-center text-thin">
               <Icon name="GraduationCap" />
-              {formattedGraduation}
+              {graduation}
             </time>
           </div>
         )}

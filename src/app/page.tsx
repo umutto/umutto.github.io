@@ -11,6 +11,7 @@ import {
   SpokenLanguages,
   WorkHistory,
 } from "@/components/sections";
+import { getTranslator } from "@/utils/localization";
 
 const navigationRoutes = [
   { name: "About", href: "#about" }, // Work, education, skills, languages
@@ -18,36 +19,41 @@ const navigationRoutes = [
   { name: "Contact", href: "#contact" }, // Contact, socials
 ];
 
-export default function Home() {
+export default async function Home() {
+  const locale = "ja";
+  const t = await getTranslator(locale, ["home"]);
+
   return (
     <>
       <NavBar routes={navigationRoutes} />
-      <Hero />
+      <Hero locale={locale} />
       <main className="container mx-auto py-8 gap-6">
         <section id="about" className="md:px-4 lg:px-8 xl:px-16">
-          <SectionHeader>Skills</SectionHeader>
-          <SkillBadges />
+          <SectionHeader>{t("Skills")}</SectionHeader>
+          <SkillBadges locale={locale} />
           <div className="divider h-px overflow-hidden" />
-          <SectionHeader>Languages</SectionHeader>
-          <SpokenLanguages />
+          <SectionHeader>{t("Languages")}</SectionHeader>
+          <SpokenLanguages locale={locale} />
           <div className="divider h-px overflow-hidden" />
-          <SectionHeader>Work History</SectionHeader>
-          <WorkHistory />
+          <SectionHeader>{t("Work")}</SectionHeader>
+          <WorkHistory locale={locale} />
           <div className="divider h-px overflow-hidden" />
-          <SectionHeader>Education</SectionHeader>
-          <EducationHistory />
+          <SectionHeader>{t("Education")}</SectionHeader>
+          <EducationHistory locale={locale} />
           <div className="divider h-px overflow-hidden" />
         </section>
         <section id="projects" className="md:px-4 lg:px-8 xl:px-16">
-          <SectionHeader>Projects</SectionHeader>
-          <Projects />
+          <SectionHeader>{t("Projects")}</SectionHeader>
+          <Projects locale={locale} />
           <div className="divider h-px overflow-hidden" />
-          <SectionHeader>Awards</SectionHeader>
+          <SectionHeader>{t("Awards")}</SectionHeader>
           <Awards />
           <div className="divider h-px overflow-hidden" />
         </section>
         <section id="contact" className="pb-16 pt-4 md:px-4 lg:px-8 xl:px-16">
-          <SectionHeader className="py-6 font-bold">Ready to say hello?</SectionHeader>
+          <SectionHeader className="py-6 font-bold">
+            {t("Ready to say hello?")}
+          </SectionHeader>
           <Socials />
         </section>
       </main>

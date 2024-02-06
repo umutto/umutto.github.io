@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import AnimatedBackground from "@/components/AnimatedBackground";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://umu.to"),
@@ -23,6 +24,7 @@ export default async function NotFound() {
           </Link>
         </div>
       </div>
+      <AnimatedBackground />
     </body>
   );
 }

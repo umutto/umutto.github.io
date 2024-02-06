@@ -53,7 +53,7 @@ export default async function Timeline({ locale, timeline }: TimelineProps) {
               <Icon name="CircleDot" className="size-6" />
             </div>
             <div
-              className={`timeline-box my-4 md:my-2 ${
+              className={`timeline-box my-4 md:my-2 max-w-lg ${
                 idx % 2 ? "timeline-end" : "timeline-start md:text-end"
               }`}
             >

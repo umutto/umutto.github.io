@@ -34,7 +34,7 @@ export default async function Hero({ locale }: { locale: localeKey }) {
               {t("Say hello!")}
             </a>
             <a
-              href="/files/umut_karakulak-resume.pdf"
+              href={`/files/${t("CV file")}`}
               className="btn btn-outline md:btn-lg rounded-full font-light btn-wide"
               download
             >

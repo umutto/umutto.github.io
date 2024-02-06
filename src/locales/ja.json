@@ -19,7 +19,8 @@
       "Title": "Web開発と機械学習",
       "Description": "  革新的で最先端のテクノロジーを実験することに情熱を持っている人。 現在はフルスタック開発者として働いており、機械学習に携わっています。",
       "Say hello!": "👋 お問い合わせ",
-      "Download CV": "履歴書"
+      "Download CV": "履歴書",
+      "CV file": "umut_karakulak-resume_ja.pdf"
     },
     "Skills": "スキル",
     "skills": {
@@ -56,7 +57,7 @@
     },
     "Work": "職歴",
     "work": {
-      "DUNKSOFT Co.,Ltd": "Dunksoft Co.,Ltd",
+      "DUNKSOFT Co.,Ltd": "株式会社ダンクソフト",
       "Full Stack Engineer": "フルスタックエンジニア",
       "Present": "現在",
       "Dunksoft full stack work description": "誰もが利用できるコミュニティ作成プラットフォームWeARee!の開発責任者兼運営。",

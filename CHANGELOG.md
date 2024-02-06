@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.1](https://github.com/umutto/umutto.github.io/compare/v0.2.0...v0.2.1) (2024-02-06)
+
+
+### Features
+
+* add japanese cv ([66e697f](https://github.com/umutto/umutto.github.io/commit/66e697faacf71e9d466a6b64fd2c27ae86eacd38))
+
+
+### Bug Fixes
+
+* missing locale on education card date format ([023f7d2](https://github.com/umutto/umutto.github.io/commit/023f7d2a58d0f78bab65102f53ea2b7d567ae918))
+* remove server action directives for static export ([c71bd34](https://github.com/umutto/umutto.github.io/commit/c71bd3427c4541cccc0225fbc8a1b497850747e7))
+* scroll to top on locale switch ([ac852d8](https://github.com/umutto/umutto.github.io/commit/ac852d891064bf0cd0b347fe357d5986c64b73e6))
+
 ## [0.2.0](https://github.com/umutto/umutto.github.io/compare/v0.1.6...v0.2.0) (2024-02-04)
 
 

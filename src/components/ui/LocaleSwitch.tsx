@@ -10,6 +10,7 @@ export default async function LocaleSwitch({ locale }: { locale: localeKey }) {
     <Link
       className="btn btn-neutral btn-outline rounded-full"
       href={locale === "en" ? "/ja" : "/"}
+      scroll={false}
     >
       <Icon name="Globe" className="size-5" />
       {locale === "en" ? t("ja") : t("en")}

@@ -50,16 +50,16 @@
     },
     "Languages": "言語",
     "languages": {
-      "Turkish": "トルコ語 (母国語)",
-      "English": "英語 (ビジネス)",
-      "Japanese": "日本語 (上級)"
+      "Turkish": "トルコ語（母国語）",
+      "English": "英語（ビジネス）",
+      "Japanese": "日本語（上級）"
     },
     "Work": "職歴",
     "work": {
       "DUNKSOFT Co.,Ltd": "Dunksoft Co.,Ltd",
       "Full Stack Engineer": "フルスタックエンジニア",
       "Present": "現在",
-      "Dunksoft full stack work description": "誰もが利用できる革新的なコミュニティ作成プラットフォームWeARee!の開発責任者兼運営。",
+      "Dunksoft full stack work description": "誰もが利用できるコミュニティ作成プラットフォームWeARee!の開発責任者兼運営。",
       "Data Scientist": "データサイエンティスト",
       "Dunksoft data science work description": "さまざまな問題領域に関する社内使用の機械学習モデルと API の調査、データ分析、準備、実現。",
       "obase": "obase",

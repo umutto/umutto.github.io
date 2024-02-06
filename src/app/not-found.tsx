@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default async function NotFound() {
   return (
-    <body>
+    <body lang="en" className="bg-gradient-to-tl from-primary/25 min-h-screen">
       <div className="flex h-screen flex-col items-center justify-center md:flex-row">
         <h1 className="inline-block pt-6 align-top text-8xl font-medium md:mr-5 md:border-e md:pb-6 md:pr-6 drop-shadow">
           404

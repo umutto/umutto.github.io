@@ -10,6 +10,7 @@ import BadgeLink from "./ui/BadgeLink";
 import CodeMockup from "./ui/CodeMockup";
 import LocaleSwitch from "./ui/LocaleSwitch";
 import SectionHeader from "./ui/SectionHeader";
+import SectionSubHeader from "./ui/SectionSubHeader";
 import ThemeSwitch from "./ui/ThemeSwitch";
 
 export {
@@ -24,5 +25,6 @@ export {
   CodeMockup,
   LocaleSwitch,
   SectionHeader,
+  SectionSubHeader,
   ThemeSwitch,
 };

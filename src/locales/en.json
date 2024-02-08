@@ -22,7 +22,14 @@
       "Download CV": "Download CV",
       "CV file": "umut_karakulak-resume_en.pdf"
     },
-    "Skills": "Skills",
+    "About": "About Me 🧑‍💻",
+    "Languages": "Languages",
+    "languages": {
+      "Turkish": "Turkish (Native)",
+      "English": "English (Professional)",
+      "Japanese": "Japanese (Conversational)"
+    },
+    "Skills": "Programming Skills",
     "skills": {
       "Python": "Python",
       "SQL": "SQL",
@@ -48,12 +55,6 @@
       "Web Design": "Web Design",
       "HTML": "HTML",
       "CSS": "CSS"
-    },
-    "Languages": "Languages",
-    "languages": {
-      "Turkish": "Turkish (Native)",
-      "English": "English (Professional)",
-      "Japanese": "Japanese (Conversational)"
     },
     "Work": "Work History",
     "work": {

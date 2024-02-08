@@ -2,13 +2,12 @@ import { SectionHeader } from "@/components";
 import Footer from "@/components/Footer";
 import NavBar from "@/components/Navbar";
 import {
+  AboutSkills,
   Awards,
   EducationHistory,
   Hero,
   Projects,
-  SkillBadges,
   Socials,
-  SpokenLanguages,
   WorkHistory,
 } from "@/components/sections";
 import { defaultLocale, localeKey } from "@/config";
@@ -33,11 +32,8 @@ export default async function Home({ params }: { params?: { locale: localeKey } 
       <Hero locale={locale} />
       <main className="container mx-auto py-8 gap-6">
         <section id="about" className="md:px-4 lg:px-8 xl:px-16">
-          <SectionHeader>{t("Skills")}</SectionHeader>
-          <SkillBadges locale={locale} />
-          <div className="divider h-px overflow-hidden" />
-          <SectionHeader>{t("Languages")}</SectionHeader>
-          <SpokenLanguages locale={locale} />
+          <SectionHeader>{t("About")}</SectionHeader>
+          <AboutSkills locale={locale} />
           <div className="divider h-px overflow-hidden" />
           <SectionHeader>{t("Work")}</SectionHeader>
           <WorkHistory locale={locale} />

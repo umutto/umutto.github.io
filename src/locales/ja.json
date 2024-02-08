@@ -22,6 +22,13 @@
       "Download CV": "履歴書",
       "CV file": "umut_karakulak-resume_ja.pdf"
     },
+    "About": "プロフィール",
+    "Languages": "言語",
+    "languages": {
+      "Turkish": "トルコ語（母国語）",
+      "English": "英語（ビジネス）",
+      "Japanese": "日本語（上級）"
+    },
     "Skills": "スキル",
     "skills": {
       "Python": "Python",
@@ -48,12 +55,6 @@
       "Web Design": "Webデザイン",
       "HTML": "HTML",
       "CSS": "CSS"
-    },
-    "Languages": "言語",
-    "languages": {
-      "Turkish": "トルコ語（母国語）",
-      "English": "英語（ビジネス）",
-      "Japanese": "日本語（上級）"
     },
     "Work": "職歴",
     "work": {

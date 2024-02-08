@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.3](https://github.com/umutto/umutto.github.io/compare/v0.2.2...v0.2.3) (2024-02-08)
+
+
+### Bug Fixes
+
+* English cv file size on canva export ([a25755a](https://github.com/umutto/umutto.github.io/commit/a25755a4194b6f04b2753a0adb287cb997031724))
+* typo on japanese cv ([538e817](https://github.com/umutto/umutto.github.io/commit/538e81795ecb8090d11e04b93c132936374be575))
+
 ### [0.2.2](https://github.com/umutto/umutto.github.io/compare/v0.2.1...v0.2.2) (2024-02-06)
 
 ### [0.2.1](https://github.com/umutto/umutto.github.io/compare/v0.2.0...v0.2.1) (2024-02-06)

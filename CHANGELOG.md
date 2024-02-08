@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.4](https://github.com/umutto/umutto.github.io/compare/v0.2.3...v0.2.4) (2024-02-08)
+
+
+### Features
+
+* add section sub header component ([61184a8](https://github.com/umutto/umutto.github.io/commit/61184a88dde676d22f83d5649134a6bf94628062))
+
 ### [0.2.3](https://github.com/umutto/umutto.github.io/compare/v0.2.2...v0.2.3) (2024-02-08)
 
 

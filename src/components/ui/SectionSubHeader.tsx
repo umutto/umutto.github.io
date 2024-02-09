@@ -10,7 +10,7 @@ export default function SectionSubHeader({ className, children }: SectionSubHead
   return (
     <h3
       className={twMerge(
-        "text-xl md:text-2xl text-neutral/90 text-center mb-3 mt-5",
+        "text-xl md:text-2xl text-base-content/60 text-center mb-3 mt-5",
         className
       )}
     >

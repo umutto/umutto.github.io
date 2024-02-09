@@ -8,9 +8,7 @@ export default async function AboutSkills({ locale }: { locale: localeKey }) {
 
   return (
     <>
-      <h3 className="text-xl md:text-2xl text-bold text-neutral/90 text-center mb-3">
-        {t("Languages")}
-      </h3>
+      <SectionSubHeader>{t("Languages")}</SectionSubHeader>
       <SpokenLanguages locale={locale} />
       <SectionSubHeader>{t("Skills")}</SectionSubHeader>
       <SkillBadges locale={locale} />

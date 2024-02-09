@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.5](https://github.com/umutto/umutto.github.io/compare/v0.2.4...v0.2.5) (2024-02-09)
+
+
+### Bug Fixes
+
+* header component use on about ([68ed50a](https://github.com/umutto/umutto.github.io/commit/68ed50a428208f0f732f1df8d3273b44b9bb67b9))
+
 ### [0.2.4](https://github.com/umutto/umutto.github.io/compare/v0.2.3...v0.2.4) (2024-02-08)
 
 

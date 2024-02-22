@@ -14,6 +14,8 @@
     "cssnano",
     "daisyui",
     "dunksoft",
+    "Findy",
+    "G-04PH07ZCQE",
     "gtag",
     "INIAD",
     "Keras",
@@ -28,8 +30,7 @@
     "unoptimized",
     "wearee",
     "webp",
-    "Yeditepe",
-    "G-04PH07ZCQE"
+    "Yeditepe"
   ],
   "cSpell.ignorePaths": [
     "package-lock.json",

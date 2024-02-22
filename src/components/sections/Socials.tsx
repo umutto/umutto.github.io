@@ -17,6 +17,11 @@ const links = [
     url: "https://www.linkedin.com/in/umutto/",
   },
   {
+    title: "Findy",
+    icon: "Search" as const,
+    url: "https://findy-code.io/share_profiles/vImEEtuwAaMoy",
+  },
+  {
     title: "Email",
     icon: "MailOpen" as const,
     url: "mailto:hi@umu.to",

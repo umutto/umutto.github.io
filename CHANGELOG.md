@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.6](https://github.com/umutto/umutto.github.io/compare/v0.2.5...v0.2.6) (2024-02-22)
+
+
+### Features
+
+* add link to the public findy profile ([1299392](https://github.com/umutto/umutto.github.io/commit/1299392bf1f03095ae1bf8de078e58ddcc58e7c5))
+
 ### [0.2.5](https://github.com/umutto/umutto.github.io/compare/v0.2.4...v0.2.5) (2024-02-09)
 
 

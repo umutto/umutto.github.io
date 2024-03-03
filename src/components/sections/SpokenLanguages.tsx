@@ -1,3 +1,4 @@
+import { twMerge } from "tailwind-merge";
 import { LanguageDial } from "@/components";
 import { localeKey } from "@/config";
 import { getTranslator } from "@/utils/localization";
@@ -20,11 +21,17 @@ const languages = [
   },
 ];
 
-export default async function Languages({ locale }: { locale: localeKey }) {
+export default async function Languages({
+  locale,
+  className,
+}: {
+  locale: localeKey;
+  className?: string;
+}) {
   const t = await getTranslator(locale, ["home", "languages"]);
 
   return (
-    <div className="grid grid-cols-3 justify-center gap-1 py-2">
+    <div className={twMerge("grid grid-cols-3 justify-center gap-1 py-2", className)}>
       {languages.map((lang, idx) => (
         <LanguageDial key={idx} {...lang} text={t(lang.text)} />
       ))}

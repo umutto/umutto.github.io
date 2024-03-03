@@ -1,3 +1,4 @@
+import { twMerge } from "tailwind-merge";
 import { SkillBadge } from "@/components";
 import { localeKey } from "@/config";
 import { getTranslator } from "@/utils/localization";
@@ -101,11 +102,17 @@ const skills = [
   },
 ];
 
-export default async function SkillBadges({ locale }: { locale: localeKey }) {
+export default async function SkillBadges({
+  locale,
+  className,
+}: {
+  locale: localeKey;
+  className?: string;
+}) {
   const t = await getTranslator(locale, ["home", "skills"]);
 
   return (
-    <div className="flex justify-center gap-1 flex-wrap py-2">
+    <div className={twMerge("flex justify-center gap-1 flex-wrap py-2", className)}>
       {skills.map((skill, idx) => (
         <SkillBadge key={idx} title={t(skill.title)} icon={skill.icon} />
       ))}

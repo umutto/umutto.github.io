@@ -7,11 +7,19 @@ export default async function AboutSkills({ locale }: { locale: localeKey }) {
   const t = await getTranslator(locale, ["home"]);
 
   return (
-    <>
-      <SectionSubHeader>{t("Languages")}</SectionSubHeader>
-      <SpokenLanguages locale={locale} />
-      <SectionSubHeader>{t("Skills")}</SectionSubHeader>
-      <SkillBadges locale={locale} />
-    </>
+    <div className="flex flex-col">
+      <div className="lg:flex items-center mx-auto lg:gap-6 xl:gap-12 lg:mt-4 w-full xl:px-6">
+        <SectionSubHeader className="lg:text-4xl lg:w-1/3 xl:text-end">
+          {t("Languages")}
+        </SectionSubHeader>
+        <SpokenLanguages className="lg:w-2/3" locale={locale} />
+      </div>
+      <div className="lg:flex justify-between items-center mx-auto lg:gap-6 xl:gap-12 mb-4 lg:my-12 w-full xl:px-6">
+        <SectionSubHeader className="lg:text-4xl lg:w-1/3 xl:text-end">
+          {t("Skills")}
+        </SectionSubHeader>
+        <SkillBadges className="lg:w-2/3" locale={locale} />
+      </div>
+    </div>
   );
 }

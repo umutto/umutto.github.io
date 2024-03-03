@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.7](https://github.com/umutto/umutto.github.io/compare/v0.2.6...v0.2.7) (2024-03-03)
+
+
+### Features
+
+* className attribute on about sub sections ([967e824](https://github.com/umutto/umutto.github.io/commit/967e824bd76da3fdb89d04537b2c49e7f227be8d))
+
 ### [0.2.6](https://github.com/umutto/umutto.github.io/compare/v0.2.5...v0.2.6) (2024-02-22)
 
 

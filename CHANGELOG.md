@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.9](https://github.com/umutto/umutto.github.io/compare/v0.2.8...v0.2.9) (2024-06-10)
+
+
+### Features
+
+* add wevnal to work history ([726ed7c](https://github.com/umutto/umutto.github.io/commit/726ed7c4a4759c39012e65ae39b03ce6337712c1))
+
 ### [0.2.8](https://github.com/umutto/umutto.github.io/compare/v0.2.7...v0.2.8) (2024-05-27)
 
 ### Features

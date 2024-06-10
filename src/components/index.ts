@@ -8,6 +8,7 @@ import Icon from "./Icon";
 
 import BadgeLink from "./ui/BadgeLink";
 import CodeMockup from "./ui/CodeMockup";
+import Divider from "./ui/Divider";
 import LocaleSwitch from "./ui/LocaleSwitch";
 import SectionHeader from "./ui/SectionHeader";
 import SectionSubHeader from "./ui/SectionSubHeader";
@@ -23,6 +24,7 @@ export {
   Icon,
   BadgeLink,
   CodeMockup,
+  Divider,
   LocaleSwitch,
   SectionHeader,
   SectionSubHeader,

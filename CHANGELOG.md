@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.8](https://github.com/umutto/umutto.github.io/compare/v0.2.7...v0.2.8) (2024-06-10)
+
+
+### Features
+
+* add divider component ([f06a595](https://github.com/umutto/umutto.github.io/commit/f06a5957903df00e9df094f71f4e6ddb206e6f16))
+* add wantedly profile to socials ([7edf833](https://github.com/umutto/umutto.github.io/commit/7edf8335122912a1b2e812429d56bb6706957d18))
+
 ### [0.2.7](https://github.com/umutto/umutto.github.io/compare/v0.2.6...v0.2.7) (2024-03-03)
 
 

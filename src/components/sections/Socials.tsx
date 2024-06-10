@@ -22,6 +22,11 @@ const links = [
     url: "https://findy-code.io/share_profiles/vImEEtuwAaMoy",
   },
   {
+    title: "Wantedly",
+    icon: "Waypoints" as const,
+    url: "https://www.wantedly.com/id/umut_karakulak",
+  },
+  {
     title: "Email",
     icon: "MailOpen" as const,
     url: "mailto:hi@umu.to",
@@ -30,9 +35,9 @@ const links = [
 
 export default function Socials() {
   return (
-    <div className="flex justify-center gap-4 flex-wrap py-2">
+    <div className="flex justify-center gap-4 lg:gap-8 flex-wrap py-2">
       {links.map((link, idx) => (
-        <ContactBadge key={idx} {...link} />
+        <ContactBadge key={idx} {...link} className="flex lg:w-1/4" />
       ))}
     </div>
   );

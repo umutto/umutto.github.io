@@ -4,6 +4,19 @@ import { getTranslator } from "@/utils/localization";
 
 const timelineEvents = [
   {
+    name: "Wevnal Co.,Ltd",
+    location: "Tokyo, Japan",
+    image: "/images/wevnal.webp",
+    events: [
+      {
+        title: "Senior Specialist",
+        dateFrom: new Date("2024-05-01"),
+        dateTo: "present" as const,
+        description: "Wevnal senior specialist work description",
+      },
+    ],
+  },
+  {
     name: "DUNKSOFT Co.,Ltd",
     location: "Tokyo, Japan",
     image: "/images/dunksoft.webp",
@@ -11,7 +24,7 @@ const timelineEvents = [
       {
         title: "Full Stack Engineer",
         dateFrom: new Date("2020-01-01"),
-        dateTo: "present" as const,
+        dateTo: new Date("2024-04-30"),
         description: "Dunksoft full stack work description",
       },
       {

@@ -1,4 +1,4 @@
-import { SectionHeader } from "@/components";
+import { Divider, SectionHeader } from "@/components";
 import Footer from "@/components/Footer";
 import NavBar from "@/components/Navbar";
 import {
@@ -34,23 +34,26 @@ export default async function Home({ params }: { params?: { locale: localeKey } 
         <section id="about" className="md:px-4 lg:px-8 xl:px-16">
           <SectionHeader>{t("About")}</SectionHeader>
           <AboutSkills locale={locale} />
-          <div className="divider h-px overflow-hidden" />
+          <Divider />
           <SectionHeader>{t("Work")}</SectionHeader>
           <WorkHistory locale={locale} />
-          <div className="divider h-px overflow-hidden" />
+          <Divider />
           <SectionHeader>{t("Education")}</SectionHeader>
           <EducationHistory locale={locale} />
-          <div className="divider h-px overflow-hidden" />
+          <Divider />
         </section>
         <section id="projects" className="md:px-4 lg:px-8 xl:px-16">
           <SectionHeader>{t("Projects")}</SectionHeader>
           <Projects locale={locale} />
-          <div className="divider h-px overflow-hidden" />
+          <Divider />
           <SectionHeader>{t("Awards")}</SectionHeader>
           <Awards locale={locale} />
-          <div className="divider h-px overflow-hidden" />
+          <Divider />
         </section>
-        <section id="contact" className="pb-16 pt-4 md:px-4 lg:px-8 xl:px-16">
+        <section
+          id="contact"
+          className="pb-8 md:pb-16 lg:pb-24 pt-4 md:px-4 lg:px-8 xl:px-16"
+        >
           <SectionHeader className="py-6 font-bold">
             {t("Ready to say hello?")}
           </SectionHeader>

@@ -30,11 +30,6 @@ const projects = [
     image: "/images/buddy.webp",
     links: [
       {
-        url: "https://buddy.umu.to",
-        icon: "Link" as const,
-        title: "Demo",
-      },
-      {
         url: "https://github.com/umutto/buddy-19",
         icon: "Github" as const,
         title: "Repository",

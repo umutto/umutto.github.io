@@ -8,7 +8,7 @@ const awards = [
     image: "/images/odpt.webp",
     links: [
       {
-        url: "https://sounds.umu.to/",
+        url: "https://umu.to/sounds-of-transport",
         icon: "Link" as const,
         title: "Demo",
       },

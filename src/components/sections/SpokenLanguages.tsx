@@ -15,9 +15,9 @@ const languages = [
     className: "text-secondary/90",
   },
   {
-    value: 70,
+    value: 80,
     text: "Japanese",
-    className: "text-secondary/70",
+    className: "text-secondary/80",
   },
 ];
 

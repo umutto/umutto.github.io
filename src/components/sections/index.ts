@@ -6,6 +6,7 @@ import Projects from "./Projects";
 import SkillBadges from "./SkillBadges";
 import Socials from "./Socials";
 import SpokenLanguages from "./SpokenLanguages";
+import ToolBadges from "./ToolBadges";
 import WorkHistory from "./WorkHistory";
 
 export {
@@ -17,5 +18,6 @@ export {
   SkillBadges,
   Socials,
   SpokenLanguages,
+  ToolBadges,
   WorkHistory,
 };

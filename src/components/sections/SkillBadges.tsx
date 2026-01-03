@@ -1,13 +1,9 @@
 import { twMerge } from "tailwind-merge";
-import { SkillBadge } from "@/components";
+import { Badge } from "@/components";
 import { localeKey } from "@/config";
 import { getTranslator } from "@/utils/localization";
 
 const skills = [
-  {
-    title: "Python",
-    icon: "Code" as const,
-  },
   {
     title: "SQL",
     icon: "Database" as const,
@@ -21,28 +17,64 @@ const skills = [
     icon: "Code" as const,
   },
   {
+    title: "Next.js",
+    icon: "Wallpaper" as const,
+  },
+  {
+    title: "React",
+    icon: "Wallpaper" as const,
+  },
+  {
+    title: "tRPC",
+    icon: "Cable" as const,
+  },
+  {
     title: "Node.js",
     icon: "Server" as const,
   },
   {
-    title: "Next.js",
+    title: "NestJS",
     icon: "Server" as const,
   },
   {
-    title: "React",
-    icon: "AppWindow" as const,
+    title: "Python",
+    icon: "Code" as const,
+  },
+  {
+    title: "FastAPI",
+    icon: "Server" as const,
+  },
+  {
+    title: "Azure",
+    icon: "ServerCog" as const,
   },
   {
     title: "AWS",
     icon: "ServerCog" as const,
   },
   {
-    title: "Django",
-    icon: "Server" as const,
+    title: "Docker",
+    icon: "Box" as const,
   },
   {
-    title: "Flask",
-    icon: "Server" as const,
+    title: "Tailwind CSS",
+    icon: "Palette" as const,
+  },
+  {
+    title: "Pandas",
+    icon: "TableProperties" as const,
+  },
+  {
+    title: "NumPy",
+    icon: "Variable" as const,
+  },
+  {
+    title: "Tensorflow",
+    icon: "BrainCircuit" as const,
+  },
+  {
+    title: "Machine Learning",
+    icon: "BrainCircuit" as const,
   },
   {
     title: "Computer Vision",
@@ -53,52 +85,16 @@ const skills = [
     icon: "BrainCircuit" as const,
   },
   {
-    title: "Machine Learning",
-    icon: "BrainCircuit" as const,
-  },
-  {
     title: "AR / VR",
     icon: "Box" as const,
   },
   {
-    title: "NumPy",
-    icon: "Variable" as const,
-  },
-  {
-    title: "Pandas",
-    icon: "TableProperties" as const,
-  },
-  {
-    title: "Tensorflow",
-    icon: "BrainCircuit" as const,
-  },
-  {
-    title: "Keras",
-    icon: "BrainCircuit" as const,
-  },
-  {
-    title: "Data Visualization",
-    icon: "AreaChart" as const,
-  },
-  {
-    title: "Linux",
-    icon: "Computer" as const,
-  },
-  {
-    title: "Git",
-    icon: "GitBranchPlus" as const,
-  },
-  {
-    title: "Web Design",
-    icon: "DraftingCompass" as const,
-  },
-  {
     title: "HTML",
-    icon: "FileCode2" as const,
+    icon: "FileCodeCorner" as const,
   },
   {
     title: "CSS",
-    icon: "FileCode2" as const,
+    icon: "FileCodeCorner" as const,
   },
 ];
 
@@ -114,7 +110,7 @@ export default async function SkillBadges({
   return (
     <div className={twMerge("flex justify-center gap-1 flex-wrap py-2", className)}>
       {skills.map((skill, idx) => (
-        <SkillBadge key={idx} title={t(skill.title)} icon={skill.icon} />
+        <Badge key={idx} title={t(skill.title)} icon={skill.icon} />
       ))}
     </div>
   );

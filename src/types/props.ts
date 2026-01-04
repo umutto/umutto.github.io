@@ -1,6 +1,21 @@
 import { CSSProperties } from "react";
 import { IconName } from "@/components/Icon";
 
+export type TimelineCompany = {
+  name: string;
+  location?: string;
+  image?: string;
+  events: TimelineEvent[];
+  footer?: string;
+};
+
+export type TimelineEvent = {
+  title: string;
+  dateFrom: Date;
+  dateTo: Date | "present";
+  description: string;
+};
+
 export type BadgeLinkProps = {
   url: string;
   icon: IconName;

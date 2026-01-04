@@ -1,7 +1,7 @@
-import Image from "next/image";
 import { twMerge } from "tailwind-merge";
-import { BadgeLink } from "@/components";
 import { BadgeLinkProps } from "@/types/props";
+import ShowcaseCardFooter from "./ShowcaseCardFooter";
+import ShowcaseCardImage from "./ShowcaseCardImage";
 
 type ShowcaseCardProps = {
   orientation: "horizontal" | "vertical";
@@ -31,15 +31,7 @@ export default function ShowcaseCard({
       )}
     >
       {image && (
-        <figure className={orientation === "horizontal" ? " p-2 min-h-24" : "bg-white"}>
-          <Image
-            src={image}
-            alt={title}
-            width={orientation === "horizontal" ? 320 : 460}
-            height={170}
-            className="rounded"
-          />
-        </figure>
+        <ShowcaseCardImage orientation={orientation} image={image} title={title} />
       )}
       <div
         className={
@@ -57,13 +49,7 @@ export default function ShowcaseCard({
         >
           {description}
         </p>
-        {links && (
-          <div className="card-actions justify-center sm:justify-end mt-2">
-            {links?.map((link, idx) => (
-              <BadgeLink key={idx} {...link} />
-            ))}
-          </div>
-        )}
+        {links && <ShowcaseCardFooter links={links} />}
       </div>
     </div>
   );

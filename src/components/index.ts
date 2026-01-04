@@ -2,8 +2,8 @@ import Badge from "./common/Badge";
 import ContactBadge from "./common/ContactBadge";
 import EducationCard from "./common/EducationCard";
 import LanguageDial from "./common/LanguageDial";
-import ShowcaseCard from "./common/ShowcaseCard";
-import Timeline from "./common/Timeline";
+import ShowcaseCard from "./common/showcase/ShowcaseCard";
+import TimelineCard from "./common/timeline/TimelineCard";
 import Icon from "./Icon";
 
 import BadgeLink from "./ui/BadgeLink";
@@ -20,7 +20,7 @@ export {
   LanguageDial,
   Badge,
   ShowcaseCard,
-  Timeline,
+  TimelineCard,
   Icon,
   BadgeLink,
   CodeMockup,

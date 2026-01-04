@@ -65,9 +65,9 @@ export default async function Projects({ locale }: { locale: localeKey }) {
     <div className="py-2 mx-2 grid sm:grid-cols-2 xl:grid-cols-3 gap-6 sm:gap-4 xl:gap-6">
       {projects.map((project) => (
         <ShowcaseCard
+          orientation="vertical"
           {...project}
           key={project.key}
-          orientation="vertical"
           title={t(project.key).title}
           subtitle={t(project.key).subtitle}
           description={t(project.key).description}

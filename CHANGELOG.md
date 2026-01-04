@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.10](https://github.com/umutto/umutto.github.io/compare/v0.2.9...v0.2.10) (2026-01-04)
+
+
+### Features
+
+* add a new tool section, update skills ([296d820](https://github.com/umutto/umutto.github.io/commit/296d820ad10c550584f0ccc7478018871db7b5b2))
+* update history and projects with wevnal details ([92a9617](https://github.com/umutto/umutto.github.io/commit/92a961797383155f7c7b8b04072ed83fcdd9d15a))
+
 ### [0.2.9](https://github.com/umutto/umutto.github.io/compare/v0.2.8...v0.2.9) (2024-06-10)
 
 ### Features

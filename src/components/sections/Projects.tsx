@@ -4,6 +4,28 @@ import { getTranslator } from "@/utils/localization";
 
 const projects = [
   {
+    key: "botchan_aicall",
+    image: "/images/aicall.webp",
+    links: [
+      {
+        url: "https://botchan.chat/product/aicall",
+        icon: "Link" as const,
+        title: "Website",
+      },
+    ],
+  },
+  {
+    key: "botchan_ai",
+    image: "/images/ai.webp",
+    links: [
+      {
+        url: "https://botchan.chat/product/ai",
+        icon: "Link" as const,
+        title: "Website",
+      },
+    ],
+  },
+  {
     key: "wearee",
     image: "/images/wearee.webp",
     links: [

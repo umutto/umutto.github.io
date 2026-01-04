@@ -1,4 +1,4 @@
-import { Timeline } from "@/components";
+import { TimelineCard } from "@/components";
 import { localeKey } from "@/config";
 import { getTranslator } from "@/utils/localization";
 
@@ -9,12 +9,25 @@ const timelineEvents = [
     image: "/images/wevnal.webp",
     events: [
       {
-        title: "Senior Specialist",
+        title: "Engineering Manager",
+        dateFrom: new Date("2025-09-01"),
+        dateTo: "present" as const,
+        description: "Wevnal engineering manager work description",
+      },
+      {
+        title: "Tech Lead AICALL",
+        dateFrom: new Date("2025-03-01"),
+        dateTo: "present" as const,
+        description: "Wevnal botchan AICALL work description",
+      },
+      {
+        title: "Tech Lead AI",
         dateFrom: new Date("2024-05-01"),
         dateTo: "present" as const,
-        description: "Wevnal senior specialist work description",
+        description: "Wevnal botchan AI work description",
       },
     ],
+    footer: "Wevnal responsibilities",
   },
   {
     name: "DUNKSOFT Co.,Ltd",
@@ -34,6 +47,7 @@ const timelineEvents = [
         description: "Dunksoft data science work description",
       },
     ],
+    footer: "Dunksoft responsibilities",
   },
   {
     name: "obase",
@@ -47,6 +61,7 @@ const timelineEvents = [
         description: "obase intern description",
       },
     ],
+    footer: "obase responsibilities",
   },
   {
     name: "DUNKSOFT Co.,Ltd",
@@ -60,6 +75,7 @@ const timelineEvents = [
         description: "Dunksoft intern description",
       },
     ],
+    footer: "Dunksoft internship responsibilities",
   },
   {
     name: "Freelance",
@@ -72,6 +88,7 @@ const timelineEvents = [
         description: "Freelance work description",
       },
     ],
+    footer: "Freelance responsibilities",
   },
 ];
 
@@ -80,18 +97,33 @@ export default async function WorkHistory({ locale }: { locale: localeKey }) {
 
   return (
     <div className="mx-1">
-      <Timeline
-        locale={locale}
-        timeline={timelineEvents.map((c) => ({
-          ...c,
-          name: t(c.name),
-          events: c.events.map((e) => ({
-            ...e,
-            title: t(e.title),
-            description: t(e.description),
-          })),
-        }))}
-      />
+      <ul className="timeline max-md:timeline-compact timeline-vertical">
+        {timelineEvents.map((c, idx) => {
+          const company = {
+            ...c,
+            name: t(c.name),
+            events: c.events.map((e) => ({
+              ...e,
+              title: t(e.title),
+              description: t(e.description),
+            })),
+            footer: t(c.footer),
+          };
+
+          return (
+            <li key={idx}>
+              {idx !== 0 && <hr />}
+              <TimelineCard
+                key={idx}
+                locale={locale}
+                timelineClass={idx % 2 ? "timeline-end" : "timeline-start md:text-end"}
+                {...company}
+              />
+              {idx !== timelineEvents.length - 1 && <hr />}
+            </li>
+          );
+        })}
+      </ul>
     </div>
   );
 }

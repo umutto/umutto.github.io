@@ -75,21 +75,30 @@
     "Work": "Work History",
     "work": {
       "Wevnal Co.,Ltd": "Wevnal Co.,Ltd",
-      "Senior Specialist": "Senior Specialist",
-      "Wevnal senior specialist work description": "Working as a Senior Specialist on the BX platform BOTCHAN at Wevnal Co., Ltd",
+      "Engineering Manager": "Engineering Manager (BOTCHAN AI Team)",
+      "Wevnal engineering manager work description": "Directly managed 10+ engineers in a flat organization, supporting growth through regular 1-on-1s, mentorship, and feedback. Recruited and interviewed engineers, established team rules and practices, and collaborated closely with business stakeholders while promoting AI-driven development.",
+      "Tech Lead AICALL": "Tech Lead (Botchan AICALL)",
+      "Wevnal botchan AICALL work description": "Technical lead for Botchan AICALL, a call-based AI agent built using the OpenAI Realtime API. Active development from 0->1 phase, including system design, hands-on implementation, and code reviews. Established coding standards, development environments, and DevOps practices, while overseeing security, reliability, and observability.",
+      "Tech Lead AI": "Tech Lead (Botchan AI)",
+      "Wevnal botchan AI work description": "Technical lead for Botchan AI, a RAG-based chatbot. Owned system architecture and infrastructure, reduced technical debt, and led hands-on development, requirement definition, and code reviews. Acted as the primary technical contact for business teams and customers, overseeing security, incident response, reliability, and observability.",
+      "Wevnal responsibilities": "development, prototyping, system architecture, infrastructure, devops, security, code reviews, incident response, reliability, monitoring, customer support, hiring, mentorship, 1on1s, cross-team coordination, business support",
       "DUNKSOFT Co.,Ltd": "Dunksoft Co.,Ltd",
       "Full Stack Engineer": "Full Stack Engineer",
       "Present": "Present",
-      "Dunksoft full stack work description": "Development lead and management of WeARee! a community creation platform for everyone.",
+      "Dunksoft full stack work description": "Development lead and management of WeARee! a community creation platform for everyone. Association from ideation to 0→1 product creation, with hands-on development, product decisions, and direct customer communication.",
       "Data Scientist": "Data Scientist",
       "Dunksoft data science work description": "Research, data analysis, preparation and realization of in-house machine learning models and API's on a variety of problem domains.",
+      "Dunksoft responsibilities": "development, design, prototyping, system architecture, infrastructure, requirement definition, business strategy, customer relations, mentorship",
       "obase": "obase",
       "Software Engineering Intern": "Software Engineering Intern",
-      "obase intern description": "Played an active role on development for an ERP project for a large e-commerce company.",
+      "obase intern description": "Played an active role on development of an ERP project for a large e-commerce company.",
+      "obase responsibilities": "development",
       "Dunksoft intern description": "Development of an innovative video conferencing tool using Microsoft Kinect for pose estimation and speech analysis.",
+      "Dunksoft internship responsibilities": "development, design",
       "Freelance": "Freelance",
       "Software Developer": "Software Developer",
-      "Freelance work description": "Intermittently worked as a freelancer for a wide variety of companies including Microsoft Turkey. Developing mostly windows applications using .NET framework."
+      "Freelance work description": "Intermittently worked as a freelancer for a wide variety of companies including Microsoft Turkey. Developing mostly windows applications using .NET framework.",
+      "Freelance responsibilities": "requirement definition, development, design, business relations"
     },
     "Education": "Education",
     "education": {
@@ -97,9 +106,19 @@
     },
     "Projects": "Projects",
     "projects": {
+      "botchan_aicall": {
+        "title": "Botchan AICALL",
+        "subtitle": "Tech Lead",
+        "description": "A voice-to-voice AI phone agent built usings realtime API, enabling natural, low-latency conversations. It automates inbound calls such as inquiries, changes, and cancellations, helping reduce costs and improve response rates. The product supports custom scenario design, third-party integrations, reporting, and enterprise-grade security."
+      },
+      "botchan_ai": {
+        "title": "Botchan AI",
+        "subtitle": "Tech Lead",
+        "description": "A secure, scalable and reliable RAG-based AI chat system that delivers accurate, low-hallucination responses grounded in company data. It automates online customer support 24/7, improving response speed and reducing support costs through reliable, natural AI conversations. The product supports custom scenarios, reference data processing, reporting, and more."
+      },
       "wearee": {
         "title": "WeARee!",
-        "subtitle": "Lead Development & Project Management",
+        "subtitle": "Tech Lead & Project Management",
         "description": "A SaaS platform where users can create interactive spaces, without any coding knowledge. WeARee! aims to provide fun and innovative tools for building communities, accessible to anyone from anywhere. These tools include AR events, web page creation, virtual tours, 3D models, stamp rallies, and much more."
       },
       "crypto_tax": {

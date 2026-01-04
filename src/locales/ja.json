@@ -75,21 +75,30 @@
     "Work": "職歴",
     "work": {
       "Wevnal Co.,Ltd": "株式会社wevnal",
-      "Senior Specialist": "シニアスペシャリスト",
-      "Wevnal senior specialist work description": "株式会社wevnalでBXプラットフォームBOTCHANのシニアスペシャリスト",
+      "Engineering Manager": "Engineering Manager (BOTCHAN AI Team)",
+      "Wevnal engineering manager work description": "10名以上のエンジニアを直接マネジメント。定期的な1on1やメンタリング、フィードバックを通じて成長を支援。エンジニア採用・面接を担当し、チームルールや開発プラクティスを整備。AI駆動開発を推進しつつ、ビジネスチームと密に連携。",
+      "Tech Lead AICALL": "Tech Lead (Botchan AICALL)",
+      "Wevnal botchan AICALL work description": "Realtime APIを利用した通話型AIエージェント「Botchan AICALL」のTech Lead。0→1フェーズから開発に関わり、システム設計、ハンズオン実装、コードレビューを担当。コーディングルールや開発環境の改善、DevOpsを整備し、セキュリティ・信頼性・オブザーバビリティを担当。",
+      "Tech Lead AI": "Tech Lead (Botchan AI)",
+      "Wevnal botchan AI work description": "RAGベースのチャットボット「Botchan AI」のTech Lead。システムアーキテクチャおよびインフラを担当し、技術的負債の削減とハンズオン開発を推進。要件定義やコードレビューを行い、ビジネスチームおよび顧客の技術窓口として、セキュリティ、障害対応、信頼性、オブザーバビリティを担当。",
+      "Wevnal responsibilities": "開発、プロトタイピング、システムアーキテクチャ、インフラ、DevOps、セキュリティ、コードレビュー、インシデント対応、信頼性、オブザーバビリティ、顧客サポート、採用、メンターシップ、1on1、チーム間連携、ビジネスサポート",
       "DUNKSOFT Co.,Ltd": "株式会社ダンクソフト",
       "Full Stack Engineer": "フルスタックエンジニア",
       "Present": "現在",
-      "Dunksoft full stack work description": "誰もが利用できるコミュニティ作成プラットフォームWeARee!の開発責任者兼運営。",
+      "Dunksoft full stack work description": "誰もが利用できるコミュニティ作成プラットフォーム「WeARee!」の開発リード兼運営。アイデア立案から0→1のプロダクト開発まで関わりリード開発、顧客との直接コミュニケーションを取りながら、プロダクトロードマップの作成。",
       "Data Scientist": "データサイエンティスト",
       "Dunksoft data science work description": "さまざまな問題領域に関する社内使用の機械学習モデルと API の調査、データ分析、準備、実現。",
+      "Dunksoft responsibilities": "開発, デザイン, プロトタイピング、システムアーキテクチャ、インフラ、要件定義、ビジネス戦略、顧客関係、メンターシップ",
       "obase": "obase",
       "Software Engineering Intern": "ソフトウェアエンジニアリングインターン",
       "obase intern description": "大手EC企業のERPプロジェクトの開発に携わる。",
+      "obase responsibilities": "開発",
       "Dunksoft intern description": "Microsoft Kinect を使用して姿勢推定と音声分析を行う革新的なビデオ会議ツールの開発。",
+      "Dunksoft internship responsibilities": "開発, デザイン",
       "Freelance": "フリーランス",
       "Software Developer": "ソフトウェア開発者",
-      "Freelance work description": "断続的に、Microsoft Turkey を含むさまざまな企業でフリーランサーとして働いていました。 主に.NET Frameworkを使用したWindowsアプリケーションの開発を行っています。"
+      "Freelance work description": "断続的に、Microsoft Turkey を含むさまざまな企業でフリーランサーとして働いていました。 主に.NET Frameworkを使用したWindowsアプリケーションの開発を行っています。",
+      "Freelance responsibilities": "requirement definition, 開発, デザイン, ビジネス関係"
     },
     "Education": "学歴",
     "education": {
@@ -97,9 +106,19 @@
     },
     "Projects": "開発",
     "projects": {
+      "botchan_aicall": {
+        "title": "Botchan AICALL",
+        "subtitle": "テックリード",
+        "description": "Realtime APIを使った音声対音声のAI電話エージェント。問い合わせや変更、解約などの電話対応を自動化し、コスト削減と応答率向上を実現します。シナリオ設計、外部連携、レポート機能、エンタープライズ向けのセキュリティにも対応しています。"
+      },
+      "botchan_ai": {
+        "title": "Botchan AI",
+        "subtitle": "テックリード",
+        "description": "企業データに基づいて、セキュア、正確でハルシネーションの少ない回答を行う、スケーラブルで信頼性の高いRAG型AIチャットシステム。24時間のオンライン対応を自動化し、自然なAI会話によって応答速度の向上とサポートコスト削減を実現します。シナリオ設計、参照データの処理、レポート機能などにも対応しています。"
+      },
       "wearee": {
         "title": "WeARee!",
-        "subtitle": "開発リードとプロジェクトマネジメント",
+        "subtitle": "テックリード・プロジェクトマネジメント",
         "description": "ユーザーがコーディングの知識がなくてもインタラクティブなスペースを作成できる SaaS プラットフォーム。 WeARee! は、誰でもどこからでもアクセスできる、コミュニティを構築するための楽しく革新的なツールを提供することを目指しています。 これらのツールには、AR イベント、Web ページ作成、バーチャル ツアー、3D モデル、スタンプ ラリーなどが含まれます。"
       },
       "crypto_tax": {

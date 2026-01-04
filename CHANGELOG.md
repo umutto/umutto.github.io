@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.11](https://github.com/umutto/umutto.github.io/compare/v0.2.10...v0.2.11) (2026-01-04)
+
+
+### Bug Fixes
+
+* missing translation for freelance responsibilities ([6fea0a7](https://github.com/umutto/umutto.github.io/commit/6fea0a74bdefedf5524bd54b4cd1116304346ce5))
+
 ### [0.2.10](https://github.com/umutto/umutto.github.io/compare/v0.2.9...v0.2.10) (2026-01-04)
 
 

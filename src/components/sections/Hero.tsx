@@ -25,7 +25,7 @@ export default async function Hero({ locale }: { locale: localeKey }) {
           <div className="text-base-content/35 xl:text-end md:text-2xl lg:mx-6">
             {t("Title")}
           </div>
-          <p className="py-6 lg:max-w-xl lg:mx-4 xl:mx-6">{t("Description")}</p>
+          <p className="py-6 lg:max-w-xl lg:mx-4 xl:mx-6 indent-4">{t("Description")}</p>
           <div className="flex gap-2 justify-center flex-wrap md:flex-nowrap">
             <a
               href="#contact"

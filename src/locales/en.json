@@ -7,7 +7,7 @@
   },
   "metadata": {
     "Title": "Umut Karakulak's Portfolio: Web Development & Machine Learning",
-    "Description": "Someone who is passionate about experimenting with innovative, state of the art technologies. Currently working as a full-stack developer with a touch of machine learning for good measure. Explore my portfolio and feel free to say hi!"
+    "Description": "Someone who is passionate about experimenting with innovative, state of the art technologies. Currently working as a full-stack developer & tech lead with a touch of machine learning for good measure. Explore my portfolio and feel free to say hi!"
   },
   "home": {
     "navigation": {
@@ -17,7 +17,7 @@
     },
     "hero": {
       "Title": "Web Development & Machine Learning",
-      "Description": "  Someone who is passionate about experimenting with innovative, state of the art technologies. Currently working as a full-stack developer with a touch of machine learning for good measure.",
+      "Description": "Someone who is passionate about experimenting with innovative, state of the art technologies. Currently working as a full-stack developer & tech lead with a touch of machine learning for good measure.",
       "Say hello!": "👋 Say hello!",
       "Download CV": "Download CV",
       "CV file": "umut_karakulak-resume_en.pdf"
@@ -31,57 +31,64 @@
     },
     "Skills": "Skills",
     "skills": {
-      "SQL": "SQL",
       "Javascript": "Javascript",
       "Typescript": "Typescript",
+      "Node.js": "Node.js",
+      "NestJS": "NestJS",
       "Next.js": "Next.js",
       "React": "React",
       "tRPC": "tRPC",
-      "Node.js": "Node.js",
-      "NestJS": "NestJS",
+      "HTML / CSS": "HTML / CSS",
+      "Tailwind CSS": "Tailwind CSS",
+      "SQL": "SQL",
+      "MongoDB": "MongoDB",
       "Python": "Python",
       "FastAPI": "FastAPI",
-      "Azure": "Azure",
-      "AWS": "AWS",
-      "Docker": "Docker",
-      "Tailwind CSS": "Tailwind CSS",
-      "Pandas": "Pandas",
       "NumPy": "NumPy",
+      "Pandas": "Pandas",
       "Tensorflow": "Tensorflow",
-      "Machine Learning": "Machine Learning",
-      "Computer Vision": "Computer Vision",
+      "RAG": "RAG",
+      "LLMs": "LLMs",
       "NLP": "NLP",
+      "Computer Vision": "Computer Vision",
+      "Machine Learning": "Machine Learning",
       "AR / VR": "AR / VR",
-      "HTML": "HTML",
-      "CSS": "CSS"
+      "Infrastructure": "Infrastructure",
+      "System Design": "System Design",
+      "DevOps": "DevOps",
+      "Mentorship": "Mentorship",
+      "Management": "Management",
+      "Recruitment": "Technical Recruitment"
     },
     "Tools": "Tools & Services",
     "tools": {
       "Git": "Git",
       "Linux": "Linux",
+      "Docker": "Docker",
+      "Azure": "Azure",
+      "AWS": "AWS",
+      "Vercel": "Vercel",
       "NewRelic": "NewRelic",
       "Sentry": "Sentry",
-      "Claude Code": "Claude Code",
-      "Devin": "Devin",
-      "OpenSpec": "OpenSpec",
-      "Vercel": "Vercel",
       "WorkOS": "WorkOS",
       "Twilio": "Twilio",
+      "GTM": "GTM",
       "Notion": "Notion",
       "Jira": "Jira",
       "PagerDuty": "PagerDuty",
-      "GTM": "GTM"
+      "Claude Code": "Claude Code",
+      "Devin": "Devin"
     },
     "Work": "Work History",
     "work": {
       "Wevnal Co.,Ltd": "Wevnal Co.,Ltd",
       "Engineering Manager": "Engineering Manager (BOTCHAN AI Team)",
-      "Wevnal engineering manager work description": "Directly managed 10+ engineers in a flat organization, supporting growth through regular 1-on-1s, mentorship, and feedback. Recruited and interviewed engineers, established team rules and practices, and collaborated closely with business stakeholders while promoting AI-driven development.",
+      "Wevnal engineering manager work description": "Directly managed 10+ engineers in a flat organization, supporting growth through regular 1-on-1s, mentorship, and feedback. Recruited, interviewed and evaluated engineers, established team rules and practices, and collaborated closely with business stakeholders while promoting AI-driven development.",
       "Tech Lead AICALL": "Tech Lead (Botchan AICALL)",
       "Wevnal botchan AICALL work description": "Technical lead for Botchan AICALL, a call-based AI agent built using the OpenAI Realtime API. Active development from 0->1 phase, including system design, hands-on implementation, and code reviews. Established coding standards, development environments, and DevOps practices, while overseeing security, reliability, and observability.",
       "Tech Lead AI": "Tech Lead (Botchan AI)",
       "Wevnal botchan AI work description": "Technical lead for Botchan AI, a RAG-based chatbot. Owned system architecture and infrastructure, reduced technical debt, and led hands-on development, requirement definition, and code reviews. Acted as the primary technical contact for business teams and customers, overseeing security, incident response, reliability, and observability.",
-      "Wevnal responsibilities": "development, prototyping, system architecture, infrastructure, devops, security, code reviews, incident response, reliability, monitoring, customer support, hiring, mentorship, 1on1s, cross-team coordination, business support",
+      "Wevnal responsibilities": "development, prototyping, system architecture, infrastructure, devops, testing, QA, security, code reviews, incident response, reliability, monitoring, customer support, hiring, mentorship, 1on1s, cross-team coordination, business support",
       "DUNKSOFT Co.,Ltd": "Dunksoft Co.,Ltd",
       "Full Stack Engineer": "Full Stack Engineer",
       "Present": "Present",
@@ -160,6 +167,6 @@
         "description": "Co-developer of CogoStuff, winner of Imagine Cup Turkey 2009 in software development branch, world finalist."
       }
     },
-    "Ready to say hello?": "Ready to say hello?"
+    "You can find me here!": "You can find me here!"
   }
 }

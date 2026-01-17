@@ -7,7 +7,7 @@
   },
   "metadata": {
     "Title": "Umut Karakulakのポートフォリオ: Web開発と機械学習",
-    "Description": "革新的で最先端のテクノロジーを実験することに情熱を持っている人。 現在はフルスタック開発者として働いており、機械学習に携わっています。ポートフォリオをご覧になり、お気軽にご連絡してください。"
+    "Description": "革新的で最先端のテクノロジーを実験することに情熱を持っています。現在はフルスタック開発者、そしてテックリードとして働きながら、機械学習に携わっています。ポートフォリオをご覧になり、お気軽にご連絡してください。"
   },
   "home": {
     "navigation": {
@@ -17,7 +17,7 @@
     },
     "hero": {
       "Title": "Web開発と機械学習",
-      "Description": "  革新的で最先端のテクノロジーを実験することに情熱を持っている人。 現在はフルスタック開発者として働いており、機械学習に携わっています。",
+      "Description": "革新的で最先端のテクノロジーを実験することに情熱を持っています。現在はフルスタック開発者、そしてテックリードとして働きながら、機械学習に携わっています。",
       "Say hello!": "👋 お問い合わせ",
       "Download CV": "履歴書",
       "CV file": "umut_karakulak-resume_ja.pdf"
@@ -31,57 +31,64 @@
     },
     "Skills": "スキル",
     "skills": {
-      "SQL": "SQL",
       "Javascript": "Javascript",
       "Typescript": "Typescript",
+      "Node.js": "Node.js",
+      "NestJS": "NestJS",
       "Next.js": "Next.js",
       "React": "React",
       "tRPC": "tRPC",
-      "Node.js": "Node.js",
-      "NestJS": "NestJS",
+      "HTML / CSS": "HTML / CSS",
+      "Tailwind CSS": "Tailwind CSS",
+      "SQL": "SQL",
+      "MongoDB": "MongoDB",
       "Python": "Python",
       "FastAPI": "FastAPI",
-      "Azure": "Azure",
-      "AWS": "AWS",
-      "Docker": "Docker",
-      "Tailwind CSS": "Tailwind CSS",
-      "Pandas": "Pandas",
       "NumPy": "NumPy",
+      "Pandas": "Pandas",
       "Tensorflow": "Tensorflow",
-      "Machine Learning": "機械学習",
-      "Computer Vision": "コンピュータビジョン",
+      "RAG": "RAG",
+      "LLMs": "LLMs",
       "NLP": "自然言語処理",
+      "Computer Vision": "コンピュータビジョン",
+      "Machine Learning": "機械学習",
       "AR / VR": "AR / VR",
-      "HTML": "HTML",
-      "CSS": "CSS"
+      "Infrastructure": "インフラ",
+      "System Design": "システム設計",
+      "DevOps": "DevOps",
+      "Mentorship": "メンターシップ",
+      "Management": "マネジメント",
+      "Recruitment": "エンジニア採用"
     },
     "Tools": "ツール・サービス",
     "tools": {
       "Git": "Git",
       "Linux": "Linux",
+      "Docker": "Docker",
+      "Azure": "Azure",
+      "AWS": "AWS",
+      "Vercel": "Vercel",
       "NewRelic": "NewRelic",
       "Sentry": "Sentry",
-      "Claude Code": "Claude Code",
-      "Devin": "Devin",
-      "OpenSpec": "OpenSpec",
-      "Vercel": "Vercel",
       "WorkOS": "WorkOS",
       "Twilio": "Twilio",
+      "GTM": "GTM",
       "Notion": "Notion",
       "Jira": "Jira",
       "PagerDuty": "PagerDuty",
-      "GTM": "GTM"
+      "Claude Code": "Claude Code",
+      "Devin": "Devin"
     },
     "Work": "職歴",
     "work": {
       "Wevnal Co.,Ltd": "株式会社wevnal",
       "Engineering Manager": "Engineering Manager (BOTCHAN AI Team)",
-      "Wevnal engineering manager work description": "10名以上のエンジニアを直接マネジメント。定期的な1on1やメンタリング、フィードバックを通じて成長を支援。エンジニア採用・面接を担当し、チームルールや開発プラクティスを整備。AI駆動開発を推進しつつ、ビジネスチームと密に連携。",
+      "Wevnal engineering manager work description": "10名以上のエンジニアを直接マネジメント。定期的な1on1やメンタリング、フィードバックを通じて成長を支援。エンジニア採用・面接・評価を担当し、チームルールや開発プラクティスを整備。AI駆動開発を推進しつつ、ビジネスチームと密に連携。",
       "Tech Lead AICALL": "Tech Lead (Botchan AICALL)",
       "Wevnal botchan AICALL work description": "Realtime APIを利用した通話型AIエージェント「Botchan AICALL」のTech Lead。0→1フェーズから開発に関わり、システム設計、ハンズオン実装、コードレビューを担当。コーディングルールや開発環境の改善、DevOpsを整備し、セキュリティ・信頼性・オブザーバビリティを担当。",
       "Tech Lead AI": "Tech Lead (Botchan AI)",
       "Wevnal botchan AI work description": "RAGベースのチャットボット「Botchan AI」のTech Lead。システムアーキテクチャおよびインフラを担当し、技術的負債の削減とハンズオン開発を推進。要件定義やコードレビューを行い、ビジネスチームおよび顧客の技術窓口として、セキュリティ、障害対応、信頼性、オブザーバビリティを担当。",
-      "Wevnal responsibilities": "開発、プロトタイピング、システムアーキテクチャ、インフラ、DevOps、セキュリティ、コードレビュー、インシデント対応、信頼性、オブザーバビリティ、顧客サポート、採用、メンターシップ、1on1、チーム間連携、ビジネスサポート",
+      "Wevnal responsibilities": "開発、プロトタイピング、システムアーキテクチャ、インフラ、DevOps、テスト、QA、セキュリティ、コードレビュー、インシデント対応、信頼性、オブザーバビリティ、顧客サポート、採用、メンターシップ、1on1、チーム間連携、ビジネスサポート",
       "DUNKSOFT Co.,Ltd": "株式会社ダンクソフト",
       "Full Stack Engineer": "フルスタックエンジニア",
       "Present": "現在",
@@ -160,6 +167,6 @@
         "description": "CogoStuff の共同開発者、Imagine Cup Turkey 2009 のソフトウェア開発部門の優勝者、世界ファイナリスト。"
       }
     },
-    "Ready to say hello?": "Ready to say hello?"
+    "You can find me here!": "You can find me here!"
   }
 }

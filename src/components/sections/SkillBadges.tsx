@@ -5,16 +5,20 @@ import { getTranslator } from "@/utils/localization";
 
 const skills = [
   {
-    title: "SQL",
-    icon: "Database" as const,
-  },
-  {
     title: "Javascript",
     icon: "Code" as const,
   },
   {
     title: "Typescript",
     icon: "Code" as const,
+  },
+  {
+    title: "Node.js",
+    icon: "Server" as const,
+  },
+  {
+    title: "NestJS",
+    icon: "Server" as const,
   },
   {
     title: "Next.js",
@@ -29,12 +33,20 @@ const skills = [
     icon: "Cable" as const,
   },
   {
-    title: "Node.js",
-    icon: "Server" as const,
+    title: "HTML / CSS",
+    icon: "FileCodeCorner" as const,
   },
   {
-    title: "NestJS",
-    icon: "Server" as const,
+    title: "Tailwind CSS",
+    icon: "Palette" as const,
+  },
+  {
+    title: "SQL",
+    icon: "Database" as const,
+  },
+  {
+    title: "MongoDB",
+    icon: "Database" as const,
   },
   {
     title: "Python",
@@ -45,39 +57,23 @@ const skills = [
     icon: "Server" as const,
   },
   {
-    title: "Azure",
-    icon: "ServerCog" as const,
-  },
-  {
-    title: "AWS",
-    icon: "ServerCog" as const,
-  },
-  {
-    title: "Docker",
-    icon: "Box" as const,
-  },
-  {
-    title: "Tailwind CSS",
-    icon: "Palette" as const,
+    title: "NumPy",
+    icon: "Variable" as const,
   },
   {
     title: "Pandas",
     icon: "TableProperties" as const,
   },
   {
-    title: "NumPy",
-    icon: "Variable" as const,
-  },
-  {
     title: "Tensorflow",
     icon: "BrainCircuit" as const,
   },
   {
-    title: "Machine Learning",
+    title: "RAG",
     icon: "BrainCircuit" as const,
   },
   {
-    title: "Computer Vision",
+    title: "LLMs",
     icon: "BrainCircuit" as const,
   },
   {
@@ -85,16 +81,40 @@ const skills = [
     icon: "BrainCircuit" as const,
   },
   {
+    title: "Computer Vision",
+    icon: "BrainCircuit" as const,
+  },
+  {
+    title: "Machine Learning",
+    icon: "BrainCircuit" as const,
+  },
+  {
     title: "AR / VR",
     icon: "Box" as const,
   },
   {
-    title: "HTML",
-    icon: "FileCodeCorner" as const,
+    title: "Infrastructure",
+    icon: "ServerCog" as const,
   },
   {
-    title: "CSS",
-    icon: "FileCodeCorner" as const,
+    title: "System Design",
+    icon: "Workflow" as const,
+  },
+  {
+    title: "DevOps",
+    icon: "Workflow" as const,
+  },
+  {
+    title: "Mentorship",
+    icon: "Users" as const,
+  },
+  {
+    title: "Management",
+    icon: "Users" as const,
+  },
+  {
+    title: "Recruitment",
+    icon: "Users" as const,
   },
 ];
 

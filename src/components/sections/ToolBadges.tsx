@@ -13,6 +13,22 @@ const tools = [
     icon: "Computer" as const,
   },
   {
+    title: "Docker",
+    icon: "Box" as const,
+  },
+  {
+    title: "Azure",
+    icon: "ServerCog" as const,
+  },
+  {
+    title: "AWS",
+    icon: "ServerCog" as const,
+  },
+  {
+    title: "Vercel",
+    icon: "ServerCog" as const,
+  },
+  {
     title: "NewRelic",
     icon: "Binoculars" as const,
   },
@@ -21,28 +37,16 @@ const tools = [
     icon: "Binoculars" as const,
   },
   {
-    title: "Claude Code",
-    icon: "BrainCircuit" as const,
-  },
-  {
-    title: "Devin",
-    icon: "BrainCircuit" as const,
-  },
-  {
-    title: "OpenSpec",
-    icon: "BrainCircuit" as const,
-  },
-  {
-    title: "Vercel",
-    icon: "ServerCog" as const,
-  },
-  {
     title: "WorkOS",
     icon: "ContactRound" as const,
   },
   {
     title: "Twilio",
     icon: "PhoneCall" as const,
+  },
+  {
+    title: "GTM",
+    icon: "Computer" as const,
   },
   {
     title: "Notion",
@@ -57,8 +61,12 @@ const tools = [
     icon: "Siren" as const,
   },
   {
-    title: "GTM",
-    icon: "Computer" as const,
+    title: "Claude Code",
+    icon: "BrainCircuit" as const,
+  },
+  {
+    title: "Devin",
+    icon: "BrainCircuit" as const,
   },
 ];
 

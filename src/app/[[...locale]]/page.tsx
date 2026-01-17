@@ -55,7 +55,7 @@ export default async function Home({ params }: { params?: { locale: localeKey } 
           className="pb-8 md:pb-16 lg:pb-24 pt-4 md:px-4 lg:px-8 xl:px-16"
         >
           <SectionHeader className="pt-6 pb-10 font-bold">
-            {t("Ready to say hello?")}
+            {t("You can find me here!")}
           </SectionHeader>
           <Socials />
         </section>

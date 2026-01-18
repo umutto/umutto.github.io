@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.12](https://github.com/umutto/umutto.github.io/compare/v0.2.11...v0.2.12) (2026-01-18)
+
+
+### Features
+
+* update resume for 2026 ([ec7b9cf](https://github.com/umutto/umutto.github.io/commit/ec7b9cf034667cf7bf4c44f2185c2cf82d2a9d09))
+
 ### [0.2.11](https://github.com/umutto/umutto.github.io/compare/v0.2.10...v0.2.11) (2026-01-04)
 
 

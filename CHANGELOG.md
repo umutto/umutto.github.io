@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.0](https://github.com/umutto/umutto.github.io/compare/v0.2.13...v0.3.0) (2026-01-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* The old version had the GA ID hard-coded and was intended to be overwritten by others, which is fine for a quick setup. However, it is easy to miss and has been polluting my analytics reports (looking at you Tomohito and Yoshiki! =) I'm happy to share, but a fork or a star would've been appreciated).
+
+For a proper deployment, I've moved the GA ID settings to environment variables. Because this site uses SSG, the environment variables need to be exposed during the build, which happens via GitHub Actions. The new variable needs to be added to "Settings -> Secrets and variables -> Actions" for the Google Analytics integration, otherwise there will be no analytics.
+
+### Features
+
+* move Google Analytics ID to repo secrets ([9c6169a](https://github.com/umutto/umutto.github.io/commit/9c6169ac4262cb8b777eb83534954ab8a34605da))
+
 ### [0.2.13](https://github.com/umutto/umutto.github.io/compare/v0.2.12...v0.2.13) (2026-01-25)
 
 

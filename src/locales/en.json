@@ -58,7 +58,15 @@
       "DevOps": "DevOps",
       "Mentorship": "Mentorship",
       "Management": "Management",
-      "Recruitment": "Technical Recruitment"
+      "Recruitment": "Technical Recruitment",
+      "Golang": "Golang",
+      "ClickHouse": "ClickHouse",
+      "LLM Ops": "LLM Ops",
+      "Observability": "Observability",
+      "Agile Delivery": "Agile Delivery",
+      "AI-Native SDLC": "AI-Native SDLC",
+      "Incident Ops": "Incident Ops",
+      "Planning": "Planning"
     },
     "Tools": "Tools & Services",
     "tools": {
@@ -67,17 +75,10 @@
       "Docker": "Docker",
       "Azure": "Azure",
       "AWS": "AWS",
-      "Vercel": "Vercel",
+      "GCP": "GCP",
       "NewRelic": "NewRelic",
       "Sentry": "Sentry",
-      "WorkOS": "WorkOS",
-      "Twilio": "Twilio",
-      "GTM": "GTM",
-      "Notion": "Notion",
-      "Jira": "Jira",
-      "PagerDuty": "PagerDuty",
-      "Claude Code": "Claude Code",
-      "Devin": "Devin"
+      "WorkOS / Auth0": "WorkOS / Auth0"
     },
     "Work": "Work History",
     "work": {

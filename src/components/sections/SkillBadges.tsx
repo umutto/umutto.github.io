@@ -69,6 +69,10 @@ const skills = [
     icon: "BrainCircuit" as const,
   },
   {
+    title: "Golang",
+    icon: "Code" as const,
+  },
+  {
     title: "RAG",
     icon: "BrainCircuit" as const,
   },
@@ -115,6 +119,34 @@ const skills = [
   {
     title: "Recruitment",
     icon: "Users" as const,
+  },
+  {
+    title: "ClickHouse",
+    icon: "Database" as const,
+  },
+  {
+    title: "LLM Ops",
+    icon: "Workflow" as const,
+  },
+  {
+    title: "Observability",
+    icon: "Binoculars" as const,
+  },
+  {
+    title: "Agile Delivery",
+    icon: "Workflow" as const,
+  },
+  {
+    title: "AI-Native SDLC",
+    icon: "BrainCircuit" as const,
+  },
+  {
+    title: "Incident Ops",
+    icon: "Siren" as const,
+  },
+  {
+    title: "Planning",
+    icon: "FolderKanban" as const,
   },
 ];
 

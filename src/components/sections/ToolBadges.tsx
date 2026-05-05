@@ -25,7 +25,7 @@ const tools = [
     icon: "ServerCog" as const,
   },
   {
-    title: "Vercel",
+    title: "GCP",
     icon: "ServerCog" as const,
   },
   {
@@ -37,36 +37,8 @@ const tools = [
     icon: "Binoculars" as const,
   },
   {
-    title: "WorkOS",
+    title: "WorkOS / Auth0",
     icon: "ContactRound" as const,
-  },
-  {
-    title: "Twilio",
-    icon: "PhoneCall" as const,
-  },
-  {
-    title: "GTM",
-    icon: "Computer" as const,
-  },
-  {
-    title: "Notion",
-    icon: "FolderKanban" as const,
-  },
-  {
-    title: "Jira",
-    icon: "FolderKanban" as const,
-  },
-  {
-    title: "PagerDuty",
-    icon: "Siren" as const,
-  },
-  {
-    title: "Claude Code",
-    icon: "BrainCircuit" as const,
-  },
-  {
-    title: "Devin",
-    icon: "BrainCircuit" as const,
   },
 ];
 

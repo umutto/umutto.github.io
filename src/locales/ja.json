@@ -58,7 +58,15 @@
       "DevOps": "DevOps",
       "Mentorship": "メンターシップ",
       "Management": "マネジメント",
-      "Recruitment": "エンジニア採用"
+      "Recruitment": "エンジニア採用",
+      "Golang": "Golang",
+      "ClickHouse": "ClickHouse",
+      "LLM Ops": "LLM Ops",
+      "Observability": "可観測性",
+      "Agile Delivery": "アジャイル開発",
+      "AI-Native SDLC": "AI駆動開発",
+      "Incident Ops": "インシデント対応",
+      "Planning": "企画"
     },
     "Tools": "ツール・サービス",
     "tools": {
@@ -67,17 +75,10 @@
       "Docker": "Docker",
       "Azure": "Azure",
       "AWS": "AWS",
-      "Vercel": "Vercel",
+      "GCP": "GCP",
       "NewRelic": "NewRelic",
       "Sentry": "Sentry",
-      "WorkOS": "WorkOS",
-      "Twilio": "Twilio",
-      "GTM": "GTM",
-      "Notion": "Notion",
-      "Jira": "Jira",
-      "PagerDuty": "PagerDuty",
-      "Claude Code": "Claude Code",
-      "Devin": "Devin"
+      "WorkOS / Auth0": "WorkOS / Auth0"
     },
     "Work": "職歴",
     "work": {

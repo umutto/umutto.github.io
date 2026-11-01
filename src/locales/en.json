@@ -134,6 +134,11 @@
         "subtitle": "Tech Lead",
         "description": "A secure, scalable and reliable RAG-based AI chat system that delivers accurate, low-hallucination responses grounded in company data. It automates online customer support 24/7, improving response speed and reducing support costs through reliable, natural AI conversations. The product supports custom scenarios, reference data processing, reporting, and more."
       },
+      "wearee_builder": {
+        "title": "WeARee Builder",
+        "subtitle": "Lead Developer",
+        "description": "A lightweight, modular WYSIWYG web-builder library built with TypeScript, SCSS, and Rollup, designed to be extensible and self-documenting. Features a custom TipTap rich-text editor, image editing, 3D model and 360° panorama blocks, monetization using Stripe, client/server HTML parsers, and declarative HTML for design templates."
+      },
       "wearee": {
         "title": "WeARee!",
         "subtitle": "Tech Lead & Project Management",
@@ -148,11 +153,6 @@
         "title": "Oto-Navi",
         "subtitle": "Side Project",
         "description": "A multilingual audio-guide platform built end-to-end in 2024 for cultural spots and facilities. Developed the full stack using Next.js, TypeScript, Supabase, and AWS (Amplify, S3 & CloudFront), featuring interactive waveform playback, user onboarding and rich-text guide authoring."
-      },
-      "crypto_tax": {
-        "title": "Cryptocurrency Tax Calculator",
-        "subtitle": "Personal Project",
-        "description": "Most popular tax calculators either did not have proper support for the platforms I used or did not support the Japanese tax formula. Domestic tools were too expensive to justify, so with these excuses I created my own tax calculator to practice my web dev."
       },
       "computer_vision": {
         "title": "Computer Vision API",

@@ -26,6 +26,10 @@ const projects = [
     ],
   },
   {
+    key: "wearee_builder",
+    image: "/images/wearee.webp",
+  },
+  {
     key: "wearee",
     image: "/images/wearee.webp",
     links: [
@@ -55,17 +59,6 @@ const projects = [
         url: "https://oto-navi.jp",
         icon: "Link" as const,
         title: "Website",
-      },
-    ],
-  },
-  {
-    key: "crypto_tax",
-    image: "/images/crypto.webp",
-    links: [
-      {
-        url: "https://github.com/umutto/crypto-tax",
-        icon: "Github" as const,
-        title: "Repository",
       },
     ],
   },

@@ -142,12 +142,12 @@
       "birdwatcher": {
         "title": "Birdwatcher",
         "subtitle": "個人プロジェクト",
-        "description": "Go・Python・Vue 3のモノレポで構築した、イベント駆動型のWebクローラーおよびマルチモーダル鳥類認識パイプライン。NATS JetStreamとProtobufを用いたイベントストリーミングにより、URL内のテキストと画像から鳥の種類を特定し、発見した種をPostgreSQLを用いたインタラクティブな図鑑カタログとして管理。"
+        "description": "Go・Python・Vue 3のポリグロットなモノレポで構築した、イベント駆動型のWebクローラーおよび鳥類認識パイプライン。gRPCとProtobufを用いてURL内のテキストと画像から鳥の種類を特定し、発見した種をインタラクティブな図鑑カタログとして管理。"
       },
       "oto_navi": {
         "title": "Oto-Navi（オトナビ）",
         "subtitle": "サイドプロジェクト",
-        "description": "2024年に設計から実装まで一貫して開発した、観光地や施設向けの多言語音声ガイドプラットフォーム。Next.js、TypeScript、Supabase、AWS（S3・CloudFront）を用い、波形プレイヤーやガイド作成CMSをフルスタックで構築。"
+        "description": "2024年に設計から実装まで一貫して開発した、観光地や施設向けの多言語音声ガイドプラットフォーム。Next.js、TypeScript、Supabase、AWS（Amplify・S3・CloudFront）を用い、インタラクティブな波形プレイヤー、ユーザーオンボーディング、リッチテキストのガイド作成機能をフルスタックで構築。"
       },
       "crypto_tax": {
         "title": "暗号通貨税計算ツール",

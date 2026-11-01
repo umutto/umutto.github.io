@@ -142,12 +142,12 @@
       "birdwatcher": {
         "title": "Birdwatcher",
         "subtitle": "Personal Project",
-        "description": "An event-driven web crawler and multimodal bird recognition pipeline organized in a Go, Python, and Vue 3 monorepo. It scrapes URLs to detect bird species across both text and images—using NATS JetStream and Protobuf for event streaming—and stores every sighting in an interactive species catalog using PostgreSQL."
+        "description": "An event-driven web crawler and bird recognition pipeline built as a polyglot monorepo with Go, Python, and Vue 3. It scrapes URLs to detect bird species across text and images using gRPC and Protobuf, organizing sightings into an interactive species catalog."
       },
       "oto_navi": {
         "title": "Oto-Navi",
         "subtitle": "Side Project",
-        "description": "A multilingual audio-guide platform built end-to-end in 2024 for cultural spots and facilities. Developed the full stack using Next.js, TypeScript, Supabase, and AWS (S3 & CloudFront), featuring interactive waveform playback and rich-text guide authoring."
+        "description": "A multilingual audio-guide platform built end-to-end in 2024 for cultural spots and facilities. Developed the full stack using Next.js, TypeScript, Supabase, and AWS (Amplify, S3 & CloudFront), featuring interactive waveform playback, user onboarding and rich-text guide authoring."
       },
       "crypto_tax": {
         "title": "Cryptocurrency Tax Calculator",

@@ -135,7 +135,7 @@
         "description": "A secure, scalable and reliable RAG-based AI chat system that delivers accurate, low-hallucination responses grounded in company data. It automates online customer support 24/7, improving response speed and reducing support costs through reliable, natural AI conversations. The product supports custom scenarios, reference data processing, reporting, and more."
       },
       "wearee_builder": {
-        "title": "WeARee Builder",
+        "title": "WeARee! Builder",
         "subtitle": "Lead Developer",
         "description": "A lightweight, modular WYSIWYG web-builder library built with TypeScript, SCSS, and Rollup, designed to be extensible and self-documenting. Features a custom TipTap rich-text editor, image editing, 3D model and 360° panorama blocks, monetization using Stripe, client/server HTML parsers, and declarative HTML for design templates."
       },

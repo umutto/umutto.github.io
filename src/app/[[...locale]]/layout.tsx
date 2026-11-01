@@ -22,11 +22,19 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const locale = params?.locale || defaultLocale;
   const t = await getTranslator(locale, ["metadata"]);
+  const localeUrl = locale === defaultLocale ? "https://umu.to" : `https://umu.to/${locale}`;
 
   return {
     metadataBase: new URL("https://umu.to"),
     title: t("Title"),
     description: t("Description"),
+    alternates: {
+      canonical: localeUrl,
+      languages: {
+        en: "https://umu.to",
+        ja: "https://umu.to/ja",
+      },
+    },
     authors: {
       name: "Umut Karakulak",
     },
@@ -42,7 +50,7 @@ export async function generateMetadata({
       "JavaScript",
       "Python",
       "SQL",
-      "Typescript",
+      "TypeScript",
       "Open Source",
       "Portfolio",
       "Tokyo",
@@ -51,7 +59,7 @@ export async function generateMetadata({
     openGraph: {
       title: t("Title"),
       description: t("Description"),
-      url: "https://umu.to",
+      url: localeUrl,
       siteName: "umu.to",
       images: [
         {

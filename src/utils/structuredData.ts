@@ -4,7 +4,7 @@ export const jsonLdProfilePage: WithContext<ProfilePage> = {
   "@context": "https://schema.org",
   "@type": "ProfilePage",
   name: "Umut Karakulak",
-  image: "https://umu.to/images/icon2.png",
+  image: "https://umu.to/logo_1x1.png",
   mainEntity: {
     "@id": "#main-author",
     "@type": "Person",
@@ -13,7 +13,7 @@ export const jsonLdProfilePage: WithContext<ProfilePage> = {
     givenName: "Umut",
     nationality: "Turkish",
     image: "https://umu.to/images/umut.webp",
-    jobTitle: "Senior Specialist",
+    jobTitle: "Tech Lead & Engineering Manager",
     worksFor: "株式会社wevnal",
     workLocation: "Tokyo, Japan",
     url: "https://umu.to",
@@ -29,9 +29,10 @@ export const jsonLdProfilePage: WithContext<ProfilePage> = {
       "https://www.linkedin.com/in/umutto/",
       "https://github.com/umutto",
       "https://stackoverflow.com/users/826970/umutto",
+      "https://www.wantedly.com/id/umut_karakulak",
     ],
     description:
-      "Someone who is passionate about experimenting with innovative, state of the art technologies. Currently working as a full-stack developer with a touch of machine learning for good measure.",
+      "Someone who is passionate about experimenting with innovative, state of the art technologies. Currently working as a full-stack developer, tech lead & engineering manager with a touch of AI for good measure.",
     alumniOf: [
       {
         "@type": "EducationalOrganization",
@@ -54,7 +55,7 @@ export const jsonLdPerson: WithContext<Person> = {
   givenName: "Umut",
   nationality: "Turkish",
   image: "https://umu.to/images/umut.webp",
-  jobTitle: "Senior Specialist",
+  jobTitle: "Tech Lead & Engineering Manager",
   worksFor: "株式会社wevnal",
   workLocation: "Tokyo, Japan",
   url: "https://umu.to",
@@ -70,9 +71,10 @@ export const jsonLdPerson: WithContext<Person> = {
     "https://www.linkedin.com/in/umutto/",
     "https://github.com/umutto",
     "https://stackoverflow.com/users/826970/umutto",
+    "https://www.wantedly.com/id/umut_karakulak",
   ],
   description:
-    "Someone who is passionate about experimenting with innovative, state of the art technologies. Currently working as a full-stack developer with a touch of machine learning for good measure.",
+    "Someone who is passionate about experimenting with innovative, state of the art technologies. Currently working as a full-stack developer, tech lead & engineering manager with a touch of AI for good measure.",
   alumniOf: [
     {
       "@type": "EducationalOrganization",

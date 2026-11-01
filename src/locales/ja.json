@@ -7,7 +7,7 @@
   },
   "metadata": {
     "Title": "Umut Karakulakのポートフォリオ: Web開発と機械学習",
-    "Description": "革新的で最先端のテクノロジーを実験することに情熱を持っています。現在はフルスタック開発者、そしてテックリードとして働きながら、機械学習に携わっています。ポートフォリオをご覧になり、お気軽にご連絡してください。"
+    "Description": "革新的で最先端のテクノロジーを実験することに情熱を持っています。現在はフルスタック開発者、テックリード、そしてエンジニアリングマネージャーとして働きながら、AIにも携わっています。ポートフォリオをご覧になり、お気軽にご連絡ください。"
   },
   "home": {
     "navigation": {
@@ -17,7 +17,7 @@
     },
     "hero": {
       "Title": "Web開発と機械学習",
-      "Description": "革新的で最先端のテクノロジーを実験することに情熱を持っています。現在はフルスタック開発者、そしてテックリードとして働きながら、機械学習に携わっています。",
+      "Description": "革新的で最先端のテクノロジーを実験することに情熱を持っています。現在はフルスタック開発者、テックリード、そしてエンジニアリングマネージャーとして働きながら、AIにも携わっています。",
       "Say hello!": "👋 お問い合わせ",
       "Download CV": "履歴書",
       "CV file": "umut_karakulak-cv_2026_ja.pdf"
@@ -27,46 +27,56 @@
     "languages": {
       "Turkish": "トルコ語（母国語）",
       "English": "英語（ビジネス）",
-      "Japanese": "日本語（上級）"
+      "Japanese": "日本語（ビジネス）"
     },
     "Skills": "スキル",
+    "skillGroups": {
+      "web_backend": "Web・バックエンド",
+      "ai_ml": "AI・機械学習",
+      "cloud_tooling": "クラウド・ツール",
+      "architecture_leadership": "設計・マネジメント"
+    },
     "skills": {
-      "Javascript": "Javascript",
-      "Typescript": "Typescript",
+      "TypeScript": "TypeScript",
+      "JavaScript": "JavaScript",
+      "Python": "Python",
+      "Go": "Go",
       "Node.js": "Node.js",
-      "NestJS": "NestJS",
-      "Next.js": "Next.js",
       "React": "React",
+      "Next.js": "Next.js",
+      "NestJS": "NestJS",
+      "FastAPI": "FastAPI",
       "tRPC": "tRPC",
-      "HTML / CSS": "HTML / CSS",
+      "gRPC": "gRPC",
       "Tailwind CSS": "Tailwind CSS",
       "SQL": "SQL",
       "MongoDB": "MongoDB",
-      "Python": "Python",
-      "FastAPI": "FastAPI",
-      "NumPy": "NumPy",
-      "Pandas": "Pandas",
-      "Tensorflow": "Tensorflow",
+      "Redis": "Redis",
       "RAG": "RAG",
-      "LLMs": "LLMs",
+      "LLM Ops": "LLM Ops",
+      "Machine Learning": "機械学習",
       "NLP": "自然言語処理",
       "Computer Vision": "コンピュータビジョン",
-      "Machine Learning": "機械学習",
+      "TensorFlow": "TensorFlow",
+      "Keras": "Keras",
+      "NumPy": "NumPy",
+      "Pandas": "Pandas",
       "AR / VR": "AR / VR",
-      "Infrastructure": "インフラ",
-      "System Design": "システム設計",
-      "DevOps": "DevOps",
-      "Mentorship": "メンターシップ",
-      "Management": "マネジメント",
-      "Recruitment": "エンジニア採用",
-      "Golang": "Golang",
+      "AWS / GCP / Azure": "AWS / GCP / Azure",
+      "Docker": "Docker",
+      "CI/CD": "CI/CD",
+      "New Relic": "New Relic",
+      "Sentry": "Sentry",
+      "WorkOS / Auth0": "WorkOS / Auth0",
       "ClickHouse": "ClickHouse",
-      "LLM Ops": "LLM Ops",
-      "Observability": "可観測性",
-      "Agile Delivery": "アジャイル開発",
+      "System Design": "システム設計",
+      "Microservices": "マイクロサービス",
+      "Realtime Systems": "リアルタイムシステム",
+      "DevOps": "DevOps",
+      "Automated Testing": "自動テスト",
       "AI-Native SDLC": "AI駆動開発",
-      "Incident Ops": "インシデント対応",
-      "Planning": "企画"
+      "Management": "マネジメント",
+      "Recruitment": "エンジニア採用"
     },
     "Tools": "ツール・サービス",
     "tools": {
@@ -76,15 +86,15 @@
       "Azure": "Azure",
       "AWS": "AWS",
       "GCP": "GCP",
-      "NewRelic": "NewRelic",
+      "NewRelic": "New Relic",
       "Sentry": "Sentry",
       "WorkOS / Auth0": "WorkOS / Auth0"
     },
     "Work": "職歴",
     "work": {
       "Wevnal Co.,Ltd": "株式会社wevnal",
-      "Engineering Manager": "Engineering Manager (BOTCHAN AI Team)",
-      "Wevnal engineering manager work description": "10名以上のエンジニアを直接マネジメント。定期的な1on1やメンタリング、フィードバックを通じて成長を支援。エンジニア採用・面接・評価を担当し、チームルールや開発プラクティスを整備。AI駆動開発を推進しつつ、ビジネスチームと密に連携。",
+      "Engineering Manager": "Engineering Manager",
+      "Wevnal engineering manager work description": "10名以上のエンジニアを直接マネジメント。定期的な1on1やメンタリング、フィードバックを通じて成長を支援。エンジニア採用・面接・評価を担当し、チームルールや開発プラクティスを整備。AI駆動開発を推進しつつ、ビジネスチームと密に連携。2025年9月には複数プロジェクトを横断した貢献が評価され、全社表彰「VS（Valuable スゲェ賞）」を受賞。",
       "Tech Lead AICALL": "Tech Lead (Botchan AICALL)",
       "Wevnal botchan AICALL work description": "Realtime APIを利用した通話型AIエージェント「Botchan AICALL」のテックリード。0→1フェーズから開発に関わり、システム設計、ハンズオン実装、コードレビューを担当。コーディングルールや開発環境の改善、DevOpsを整備し、セキュリティ・信頼性・オブザーバビリティを担当。",
       "Tech Lead AI": "Tech Lead (Botchan AI)",
@@ -93,9 +103,9 @@
       "DUNKSOFT Co.,Ltd": "株式会社ダンクソフト",
       "Full Stack Engineer": "フルスタックエンジニア",
       "Present": "現在",
-      "Dunksoft full stack work description": "誰もが利用できるコミュニティ作成プラットフォーム「WeARee!」の開発リード兼運営。アイデア立案から0→1のプロダクト開発まで関わりリード開発、顧客との直接コミュニケーションを取りながら、プロダクトロードマップの作成。",
+      "Dunksoft full stack work description": "誰もが利用できるコミュニティ作成プラットフォーム「WeARee!」の開発リード兼運営。アイデア立案から0→1のプロダクト開発まで一貫して関わり、ハンズオン開発や顧客との直接コミュニケーションを通じたプロダクトロードマップの策定を担当。",
       "Data Scientist": "データサイエンティスト",
-      "Dunksoft data science work description": "さまざまな問題領域に関する社内使用の機械学習モデルと API の調査、データ分析、準備、実現。",
+      "Dunksoft data science work description": "さまざまな問題領域における社内向け機械学習モデルおよびAPIの調査、データ分析、前処理、実装を担当。",
       "Dunksoft responsibilities": "開発, デザイン, プロトタイピング、システムアーキテクチャ、インフラ、要件定義、ビジネス戦略、顧客関係、メンターシップ",
       "obase": "obase",
       "Software Engineering Intern": "ソフトウェアエンジニアリングインターン",
@@ -105,7 +115,7 @@
       "Dunksoft internship responsibilities": "開発, デザイン",
       "Freelance": "フリーランス",
       "Software Developer": "ソフトウェア開発者",
-      "Freelance work description": "断続的に、Microsoft Turkey を含むさまざまな企業でフリーランサーとして働いていました。 主に.NET Frameworkを使用したWindowsアプリケーションの開発を行っています。",
+      "Freelance work description": "断続的に、Microsoft Turkeyを含むさまざまな企業でフリーランスとして活動。主に.NET Frameworkを使用したWindowsアプリケーションの開発に従事。",
       "Freelance responsibilities": "要件定義, 開発, デザイン, ビジネス関係"
     },
     "Education": "学歴",
@@ -129,20 +139,25 @@
         "subtitle": "テックリード・プロジェクトマネジメント",
         "description": "ユーザーがコーディングの知識がなくてもインタラクティブなスペースを作成できる SaaS プラットフォーム。 WeARee! は、誰でもどこからでもアクセスできる、コミュニティを構築するための楽しく革新的なツールを提供することを目指しています。 これらのツールには、AR イベント、Web ページ作成、バーチャル ツアー、3D モデル、スタンプ ラリーなどが含まれます。"
       },
+      "birdwatcher": {
+        "title": "Birdwatcher",
+        "subtitle": "個人プロジェクト",
+        "description": "Go・Python・Vue 3のモノレポで構築した、イベント駆動型のWebクローラーおよびマルチモーダル鳥類認識パイプライン。NATS JetStreamとProtobufを用いたイベントストリーミングにより、URL内のテキストと画像から鳥の種類を特定し、発見した種をPostgreSQLを用いたインタラクティブな図鑑カタログとして管理。"
+      },
+      "oto_navi": {
+        "title": "Oto-Navi（オトナビ）",
+        "subtitle": "サイドプロジェクト",
+        "description": "2024年に設計から実装まで一貫して開発した、観光地や施設向けの多言語音声ガイドプラットフォーム。Next.js、TypeScript、Supabase、AWS（S3・CloudFront）を用い、波形プレイヤーやガイド作成CMSをフルスタックで構築。"
+      },
       "crypto_tax": {
         "title": "暗号通貨税計算ツール",
         "subtitle": "個人プロジェクト",
         "description": "ほとんどの有名な税金計算ツールは、私が使用したプラットフォームを適切にサポートしていないか、日本の税金計算式をサポートしていませんでした。 国内のツールを正当化するにはコストが高すぎました。これらのことから、Web 開発の練習のために独自の税金計算ツールを作成しました。"
       },
-      "buddy_19": {
-        "title": "Buddy-19",
-        "subtitle": "個人プロジェクト",
-        "description": "新型コロナウイルス感染症によるロックダウンの最初の数カ月間に作成されたウェブアプリ。 Web ソケットを使用して、複数の人がビデオを見たり、ゲームをプレイしたり、カスタム フローを一緒に作成したりできるプラットフォームです。 オンライン会議用の無料アプリとして意図されているため、buddy-19 という名前が付けられました。"
-      },
       "computer_vision": {
         "title": "コンピュータビジョンAPI",
         "subtitle": "開発",
-        "description": "特に明確な画像の処理と分析に重点を置き、社内使用のためのさまざまな機械学習 API とモデルを開発しました。 ディープ ニューラル ネットワークのすべてのステップがブラックボックス化されているため、人間が判読できる方法で可能な限り公開されており、プロセスの明確性が確保されています。"
+        "description": "説明可能な画像処理・分析に重点を置き、社内向けのさまざまな機械学習APIおよびモデルを開発。ディープニューラルネットワークのブラックボックス化された各ステップを可能な限り人間が理解しやすい形で可視化し、プロセスの透明性を確保。"
       },
       "natural_language": {
         "title": "自然言語理解 API",
@@ -168,6 +183,6 @@
         "description": "CogoStuff の共同開発者、Imagine Cup Turkey 2009 のソフトウェア開発部門の優勝者、世界ファイナリスト。"
       }
     },
-    "You can find me here!": "You can find me here!"
+    "You can find me here!": "各種リンクはこちら！"
   }
 }

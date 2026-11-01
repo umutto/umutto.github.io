@@ -7,7 +7,7 @@
   },
   "metadata": {
     "Title": "Umut Karakulak's Portfolio: Web Development & Machine Learning",
-    "Description": "Someone who is passionate about experimenting with innovative, state of the art technologies. Currently working as a full-stack developer & tech lead with a touch of machine learning for good measure. Explore my portfolio and feel free to say hi!"
+    "Description": "Someone who is passionate about experimenting with innovative, state of the art technologies. Currently working as a full-stack developer, tech lead & engineering manager with a touch of AI for good measure. Explore my portfolio and feel free to say hi!"
   },
   "home": {
     "navigation": {
@@ -17,7 +17,7 @@
     },
     "hero": {
       "Title": "Web Development & Machine Learning",
-      "Description": "Someone who is passionate about experimenting with innovative, state of the art technologies. Currently working as a full-stack developer & tech lead with a touch of machine learning for good measure.",
+      "Description": "Someone who is passionate about experimenting with innovative, state of the art technologies. Currently working as a full-stack developer, tech lead & engineering manager with a touch of AI for good measure.",
       "Say hello!": "👋 Say hello!",
       "Download CV": "Download CV",
       "CV file": "umut_karakulak-cv_2026_en.pdf"
@@ -27,46 +27,56 @@
     "languages": {
       "Turkish": "Turkish (Native)",
       "English": "English (Professional)",
-      "Japanese": "Japanese (Conversational)"
+      "Japanese": "Japanese (Professional)"
     },
     "Skills": "Skills",
+    "skillGroups": {
+      "web_backend": "Web & Backend",
+      "ai_ml": "AI & ML",
+      "cloud_tooling": "Cloud & Tooling",
+      "architecture_leadership": "Architecture & Lead"
+    },
     "skills": {
-      "Javascript": "Javascript",
-      "Typescript": "Typescript",
+      "TypeScript": "TypeScript",
+      "JavaScript": "JavaScript",
+      "Python": "Python",
+      "Go": "Go",
       "Node.js": "Node.js",
-      "NestJS": "NestJS",
-      "Next.js": "Next.js",
       "React": "React",
+      "Next.js": "Next.js",
+      "NestJS": "NestJS",
+      "FastAPI": "FastAPI",
       "tRPC": "tRPC",
-      "HTML / CSS": "HTML / CSS",
+      "gRPC": "gRPC",
       "Tailwind CSS": "Tailwind CSS",
       "SQL": "SQL",
       "MongoDB": "MongoDB",
-      "Python": "Python",
-      "FastAPI": "FastAPI",
-      "NumPy": "NumPy",
-      "Pandas": "Pandas",
-      "Tensorflow": "Tensorflow",
+      "Redis": "Redis",
       "RAG": "RAG",
-      "LLMs": "LLMs",
+      "LLM Ops": "LLM Ops",
+      "Machine Learning": "Machine Learning",
       "NLP": "NLP",
       "Computer Vision": "Computer Vision",
-      "Machine Learning": "Machine Learning",
+      "TensorFlow": "TensorFlow",
+      "Keras": "Keras",
+      "NumPy": "NumPy",
+      "Pandas": "Pandas",
       "AR / VR": "AR / VR",
-      "Infrastructure": "Infrastructure",
-      "System Design": "System Design",
-      "DevOps": "DevOps",
-      "Mentorship": "Mentorship",
-      "Management": "Management",
-      "Recruitment": "Technical Recruitment",
-      "Golang": "Golang",
+      "AWS / GCP / Azure": "AWS / GCP / Azure",
+      "Docker": "Docker",
+      "CI/CD": "CI/CD",
+      "New Relic": "New Relic",
+      "Sentry": "Sentry",
+      "WorkOS / Auth0": "WorkOS / Auth0",
       "ClickHouse": "ClickHouse",
-      "LLM Ops": "LLM Ops",
-      "Observability": "Observability",
-      "Agile Delivery": "Agile Delivery",
+      "System Design": "System Design",
+      "Microservices": "Microservices",
+      "Realtime Systems": "Realtime Systems",
+      "DevOps": "DevOps",
+      "Automated Testing": "Automated Testing",
       "AI-Native SDLC": "AI-Native SDLC",
-      "Incident Ops": "Incident Ops",
-      "Planning": "Planning"
+      "Management": "Management",
+      "Recruitment": "Technical Recruitment"
     },
     "Tools": "Tools & Services",
     "tools": {
@@ -76,15 +86,15 @@
       "Azure": "Azure",
       "AWS": "AWS",
       "GCP": "GCP",
-      "NewRelic": "NewRelic",
+      "NewRelic": "New Relic",
       "Sentry": "Sentry",
       "WorkOS / Auth0": "WorkOS / Auth0"
     },
     "Work": "Work History",
     "work": {
       "Wevnal Co.,Ltd": "Wevnal Co.,Ltd",
-      "Engineering Manager": "Engineering Manager (BOTCHAN AI Team)",
-      "Wevnal engineering manager work description": "Directly managed 10+ engineers in a flat organization, supporting growth through regular 1-on-1s, mentorship, and feedback. Recruited, interviewed and evaluated engineers, established team rules and practices, and collaborated closely with business stakeholders while promoting AI-driven development.",
+      "Engineering Manager": "Engineering Manager",
+      "Wevnal engineering manager work description": "Directly managed 10+ engineers in a flat organization, supporting growth through regular 1-on-1s, mentorship, and feedback. Recruited, interviewed and evaluated engineers, established team rules and practices, and collaborated closely with business stakeholders while promoting AI-driven development. Awarded the company-wide VS (Valuable Sugee) Award in Sep 2025 for cross-project contributions and versatility.",
       "Tech Lead AICALL": "Tech Lead (Botchan AICALL)",
       "Wevnal botchan AICALL work description": "Technical lead for Botchan AICALL, a call-based AI agent built using the OpenAI Realtime API. Active development from 0->1 phase, including system design, hands-on implementation, and code reviews. Established coding standards, development environments, and DevOps practices, while overseeing security, reliability, and observability.",
       "Tech Lead AI": "Tech Lead (Botchan AI)",
@@ -93,13 +103,13 @@
       "DUNKSOFT Co.,Ltd": "Dunksoft Co.,Ltd",
       "Full Stack Engineer": "Full Stack Engineer",
       "Present": "Present",
-      "Dunksoft full stack work description": "Development lead and management of WeARee! a community creation platform for everyone. Association from ideation to 0→1 product creation, with hands-on development, product decisions, and direct customer communication.",
+      "Dunksoft full stack work description": "Development lead and management of WeARee!, a community creation platform for everyone. Involved from ideation to 0→1 product creation, with hands-on development, product decisions, and direct customer communication.",
       "Data Scientist": "Data Scientist",
-      "Dunksoft data science work description": "Research, data analysis, preparation and realization of in-house machine learning models and API's on a variety of problem domains.",
+      "Dunksoft data science work description": "Research, data analysis, preparation and realization of in-house machine learning models and APIs on a variety of problem domains.",
       "Dunksoft responsibilities": "development, design, prototyping, system architecture, infrastructure, requirement definition, business strategy, customer relations, mentorship",
       "obase": "obase",
       "Software Engineering Intern": "Software Engineering Intern",
-      "obase intern description": "Played an active role on development of an ERP project for a large e-commerce company.",
+      "obase intern description": "Played an active role in the development of an ERP project for a large e-commerce company.",
       "obase responsibilities": "development",
       "Dunksoft intern description": "Development of an innovative video conferencing tool using Microsoft Kinect for pose estimation and speech analysis.",
       "Dunksoft internship responsibilities": "development, design",
@@ -117,7 +127,7 @@
       "botchan_aicall": {
         "title": "Botchan AICALL",
         "subtitle": "Tech Lead",
-        "description": "A voice-to-voice AI phone agent built usings realtime API, enabling natural, low-latency conversations. It automates inbound calls such as inquiries, changes, and cancellations, helping reduce costs and improve response rates. The product supports custom scenario design, third-party integrations, reporting, and enterprise-grade security."
+        "description": "A voice-to-voice AI phone agent built using the OpenAI Realtime API, enabling natural, low-latency conversations. It automates inbound calls such as inquiries, changes, and cancellations, helping reduce costs and improve response rates. The product supports custom scenario design, third-party integrations, reporting, and enterprise-grade security."
       },
       "botchan_ai": {
         "title": "Botchan AI",
@@ -129,20 +139,25 @@
         "subtitle": "Tech Lead & Project Management",
         "description": "A SaaS platform where users can create interactive spaces, without any coding knowledge. WeARee! aims to provide fun and innovative tools for building communities, accessible to anyone from anywhere. These tools include AR events, web page creation, virtual tours, 3D models, stamp rallies, and much more."
       },
+      "birdwatcher": {
+        "title": "Birdwatcher",
+        "subtitle": "Personal Project",
+        "description": "An event-driven web crawler and multimodal bird recognition pipeline organized in a Go, Python, and Vue 3 monorepo. It scrapes URLs to detect bird species across both text and images—using NATS JetStream and Protobuf for event streaming—and stores every sighting in an interactive species catalog using PostgreSQL."
+      },
+      "oto_navi": {
+        "title": "Oto-Navi",
+        "subtitle": "Side Project",
+        "description": "A multilingual audio-guide platform built end-to-end in 2024 for cultural spots and facilities. Developed the full stack using Next.js, TypeScript, Supabase, and AWS (S3 & CloudFront), featuring interactive waveform playback and rich-text guide authoring."
+      },
       "crypto_tax": {
         "title": "Cryptocurrency Tax Calculator",
         "subtitle": "Personal Project",
-        "description": "Most famous tax calculators either did not have proper support for the platforms I've used or was not supporting Japanese tax formula. Domestic tools were too expensive to justify, with these excuses created my own tax calculator to practice my web dev."
-      },
-      "buddy_19": {
-        "title": "Buddy-19",
-        "subtitle": "Personal Project",
-        "description": "A web app that has been created during initial months of COVID-19 lockdown. A platform where multiple people can watch videos, play games and even create custom flows together using web sockets. Meant as a complimentary app for online meetings, thus the name buddy-19."
+        "description": "Most popular tax calculators either did not have proper support for the platforms I used or did not support the Japanese tax formula. Domestic tools were too expensive to justify, so with these excuses I created my own tax calculator to practice my web dev."
       },
       "computer_vision": {
         "title": "Computer Vision API",
         "subtitle": "Development",
-        "description": "Developed a variety of machine learning APIs and models for internal use, specifically focusing on transparent image processing and analysis. With all the black-box steps of the deep neural networks are exposed in a human readable way as much as possible, ensuring clarity in the process."
+        "description": "Developed a variety of machine learning APIs and models for internal use, specifically focusing on explainable image processing and analysis. All black-box steps of the deep neural networks are exposed in a human-readable way as much as possible, ensuring clarity in the process."
       },
       "natural_language": {
         "title": "Natural Language Understanding API",

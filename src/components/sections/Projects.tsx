@@ -37,22 +37,33 @@ const projects = [
     ],
   },
   {
-    key: "crypto_tax",
-    image: "/images/crypto.webp",
+    key: "birdwatcher",
+    image: "/images/birdwatcher.webp",
     links: [
       {
-        url: "https://github.com/umutto/crypto-tax",
+        url: "https://github.com/umutto/birdwatcher",
         icon: "Github" as const,
         title: "Repository",
       },
     ],
   },
   {
-    key: "buddy_19",
-    image: "/images/buddy.webp",
+    key: "oto_navi",
+    image: "/images/otonavi.webp",
     links: [
       {
-        url: "https://github.com/umutto/buddy-19",
+        url: "https://oto-navi.jp",
+        icon: "Link" as const,
+        title: "Website",
+      },
+    ],
+  },
+  {
+    key: "crypto_tax",
+    image: "/images/crypto.webp",
+    links: [
+      {
+        url: "https://github.com/umutto/crypto-tax",
         icon: "Github" as const,
         title: "Repository",
       },
